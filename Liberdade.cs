@@ -21,5 +21,20 @@ namespace appEducacao
         {
 
         }
+
+        private void link_questionario_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Liberdade_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

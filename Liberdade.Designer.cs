@@ -31,30 +31,33 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Liberdade));
             lblAcessoEducacao = new Label();
             lblTextoAE = new Label();
-            pictureBox7 = new PictureBox();
             pictureBox6 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            lnkSaude = new LinkLabel();
             lnkEsportes = new LinkLabel();
             lnkEducacao = new LinkLabel();
             lnkLiberdade = new LinkLabel();
             lnkCultura = new LinkLabel();
-            lnkFamilia = new LinkLabel();
             pictureBox1 = new PictureBox();
             pictureBox8 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            link_questionario = new LinkLabel();
+            pictureBox9 = new PictureBox();
+            lnkFamilia = new LinkLabel();
+            pictureBox2 = new PictureBox();
+            lnkSaude = new LinkLabel();
+            pictureBox7 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             SuspendLayout();
             // 
             // lblAcessoEducacao
@@ -79,17 +82,6 @@
             lblTextoAE.TabIndex = 55;
             lblTextoAE.Text = resources.GetString("lblTextoAE.Text");
             lblTextoAE.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox7
-            // 
-            pictureBox7.BackColor = Color.FromArgb(192, 192, 255);
-            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(49, 355);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(30, 30);
-            pictureBox7.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox7.TabIndex = 53;
-            pictureBox7.TabStop = false;
             // 
             // pictureBox6
             // 
@@ -134,30 +126,6 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox3.TabIndex = 49;
             pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.BackColor = Color.FromArgb(192, 192, 255);
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(49, 32);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(30, 30);
-            pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox2.TabIndex = 48;
-            pictureBox2.TabStop = false;
-            // 
-            // lnkSaude
-            // 
-            lnkSaude.AutoSize = true;
-            lnkSaude.BackColor = Color.FromArgb(192, 192, 255);
-            lnkSaude.LinkBehavior = LinkBehavior.NeverUnderline;
-            lnkSaude.LinkColor = Color.Black;
-            lnkSaude.Location = new Point(85, 370);
-            lnkSaude.Name = "lnkSaude";
-            lnkSaude.Size = new Size(39, 15);
-            lnkSaude.TabIndex = 47;
-            lnkSaude.TabStop = true;
-            lnkSaude.Text = "Saúde";
             // 
             // lnkEsportes
             // 
@@ -211,20 +179,6 @@
             lnkCultura.TabStop = true;
             lnkCultura.Text = "Cultura";
             // 
-            // lnkFamilia
-            // 
-            lnkFamilia.AutoSize = true;
-            lnkFamilia.BackColor = Color.FromArgb(192, 192, 255);
-            lnkFamilia.DisabledLinkColor = Color.Black;
-            lnkFamilia.LinkBehavior = LinkBehavior.NeverUnderline;
-            lnkFamilia.LinkColor = Color.Black;
-            lnkFamilia.Location = new Point(85, 47);
-            lnkFamilia.Name = "lnkFamilia";
-            lnkFamilia.Size = new Size(45, 15);
-            lnkFamilia.TabIndex = 42;
-            lnkFamilia.TabStop = true;
-            lnkFamilia.Text = "Família";
-            // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.FromArgb(192, 192, 255);
@@ -264,11 +218,88 @@
             label2.TabIndex = 59;
             label2.Text = "Políticas de Adoção e Guarda:";
             // 
+            // link_questionario
+            // 
+            link_questionario.AutoSize = true;
+            link_questionario.BackColor = Color.FromArgb(192, 192, 255);
+            link_questionario.LinkBehavior = LinkBehavior.NeverUnderline;
+            link_questionario.LinkColor = Color.Black;
+            link_questionario.Location = new Point(85, 423);
+            link_questionario.Name = "link_questionario";
+            link_questionario.Size = new Size(75, 15);
+            link_questionario.TabIndex = 61;
+            link_questionario.TabStop = true;
+            link_questionario.Text = "Questionário";
+            link_questionario.LinkClicked += link_questionario_LinkClicked;
+            // 
+            // pictureBox9
+            // 
+            pictureBox9.BackColor = Color.FromArgb(192, 192, 255);
+            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new Point(49, 408);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(30, 30);
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox9.TabIndex = 81;
+            pictureBox9.TabStop = false;
+            pictureBox9.Click += pictureBox9_Click;
+            // 
+            // lnkFamilia
+            // 
+            lnkFamilia.AutoSize = true;
+            lnkFamilia.BackColor = Color.FromArgb(192, 192, 255);
+            lnkFamilia.DisabledLinkColor = Color.Black;
+            lnkFamilia.LinkBehavior = LinkBehavior.NeverUnderline;
+            lnkFamilia.LinkColor = Color.Black;
+            lnkFamilia.Location = new Point(85, 47);
+            lnkFamilia.Name = "lnkFamilia";
+            lnkFamilia.Size = new Size(45, 15);
+            lnkFamilia.TabIndex = 42;
+            lnkFamilia.TabStop = true;
+            lnkFamilia.Text = "Família";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.FromArgb(192, 192, 255);
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(49, 32);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(30, 30);
+            pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox2.TabIndex = 48;
+            pictureBox2.TabStop = false;
+            // 
+            // lnkSaude
+            // 
+            lnkSaude.AutoSize = true;
+            lnkSaude.BackColor = Color.FromArgb(192, 192, 255);
+            lnkSaude.LinkBehavior = LinkBehavior.NeverUnderline;
+            lnkSaude.LinkColor = Color.Black;
+            lnkSaude.Location = new Point(85, 370);
+            lnkSaude.Name = "lnkSaude";
+            lnkSaude.Size = new Size(39, 15);
+            lnkSaude.TabIndex = 47;
+            lnkSaude.TabStop = true;
+            lnkSaude.Text = "Saúde";
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.BackColor = Color.FromArgb(192, 192, 255);
+            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
+            pictureBox7.Location = new Point(49, 355);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(30, 30);
+            pictureBox7.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox7.TabIndex = 53;
+            pictureBox7.TabStop = false;
+            // 
             // Liberdade
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox9);
+            Controls.Add(link_questionario);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(lblTextoAE);
@@ -289,14 +320,16 @@
             Controls.Add(pictureBox1);
             Name = "Liberdade";
             Text = "Liberdade";
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            Load += Liberdade_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -304,21 +337,23 @@
         #endregion
         private Label lblAcessoEducacao;
         private Label lblTextoAE;
-        private PictureBox pictureBox7;
         private PictureBox pictureBox6;
         private PictureBox pictureBox5;
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;
-        private PictureBox pictureBox2;
-        private LinkLabel lnkSaude;
         private LinkLabel lnkEsportes;
         private LinkLabel lnkEducacao;
         private LinkLabel lnkLiberdade;
         private LinkLabel lnkCultura;
-        private LinkLabel lnkFamilia;
         private PictureBox pictureBox1;
         private PictureBox pictureBox8;
         private Label label1;
         private Label label2;
+        private LinkLabel link_questionario;
+        private PictureBox pictureBox9;
+        private LinkLabel lnkFamilia;
+        private PictureBox pictureBox2;
+        private LinkLabel lnkSaude;
+        private PictureBox pictureBox7;
     }
 }

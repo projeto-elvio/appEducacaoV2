@@ -46,6 +46,8 @@
             label1 = new Label();
             label2 = new Label();
             pictureBox8 = new PictureBox();
+            link_questionario = new LinkLabel();
+            pictureBox9 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
@@ -54,6 +56,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             SuspendLayout();
             // 
             // lblAcessoEducacao
@@ -253,11 +256,37 @@
             pictureBox8.TabIndex = 79;
             pictureBox8.TabStop = false;
             // 
+            // link_questionario
+            // 
+            link_questionario.AutoSize = true;
+            link_questionario.BackColor = Color.FromArgb(192, 192, 255);
+            link_questionario.LinkBehavior = LinkBehavior.NeverUnderline;
+            link_questionario.LinkColor = Color.Black;
+            link_questionario.Location = new Point(73, 423);
+            link_questionario.Name = "link_questionario";
+            link_questionario.Size = new Size(75, 15);
+            link_questionario.TabIndex = 81;
+            link_questionario.TabStop = true;
+            link_questionario.Text = "Questionário";
+            // 
+            // pictureBox9
+            // 
+            pictureBox9.BackColor = Color.FromArgb(192, 192, 255);
+            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new Point(37, 408);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(30, 30);
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox9.TabIndex = 80;
+            pictureBox9.TabStop = false;
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(link_questionario);
+            Controls.Add(pictureBox9);
             Controls.Add(pictureBox8);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -286,6 +315,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -308,5 +338,7 @@
         private Label label1;
         private Label label2;
         private PictureBox pictureBox8;
+        private LinkLabel link_questionario;
+        private PictureBox pictureBox9;
     }
 }

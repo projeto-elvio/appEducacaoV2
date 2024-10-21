@@ -20,7 +20,7 @@
             }
             base.Dispose(disposing);
         }
-      
+
 
         #region Windows Form Designer generated code
 
@@ -45,11 +45,13 @@
             lnkEducacao = new LinkLabel();
             lnkLiberdade = new LinkLabel();
             lnkCultura = new LinkLabel();
-            lnkFamilia = new LinkLabel();
             pictureBox1 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            pictureBox9 = new PictureBox();
+            lbl_familia = new Label();
+            link_questionario = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -58,6 +60,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             SuspendLayout();
             // 
             // lblAcessoEducacao
@@ -96,7 +99,7 @@
             // 
             pictureBox7.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(50, 357);
+            pictureBox7.Location = new Point(44, 336);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(30, 30);
             pictureBox7.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -107,7 +110,7 @@
             // 
             pictureBox6.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(50, 294);
+            pictureBox6.Location = new Point(44, 273);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(30, 30);
             pictureBox6.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -118,7 +121,7 @@
             // 
             pictureBox5.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(50, 236);
+            pictureBox5.Location = new Point(44, 215);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(30, 30);
             pictureBox5.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -129,7 +132,7 @@
             // 
             pictureBox4.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(50, 170);
+            pictureBox4.Location = new Point(44, 149);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(30, 30);
             pictureBox4.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -140,7 +143,7 @@
             // 
             pictureBox3.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(50, 100);
+            pictureBox3.Location = new Point(44, 79);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(30, 30);
             pictureBox3.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -151,7 +154,7 @@
             // 
             pictureBox2.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(50, 34);
+            pictureBox2.Location = new Point(44, 13);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(30, 30);
             pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -164,7 +167,7 @@
             lnkSaude.BackColor = Color.FromArgb(192, 192, 255);
             lnkSaude.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkSaude.LinkColor = Color.Black;
-            lnkSaude.Location = new Point(86, 372);
+            lnkSaude.Location = new Point(80, 351);
             lnkSaude.Name = "lnkSaude";
             lnkSaude.Size = new Size(39, 15);
             lnkSaude.TabIndex = 28;
@@ -177,7 +180,7 @@
             lnkEsportes.BackColor = Color.FromArgb(192, 192, 255);
             lnkEsportes.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkEsportes.LinkColor = Color.Black;
-            lnkEsportes.Location = new Point(86, 309);
+            lnkEsportes.Location = new Point(80, 288);
             lnkEsportes.Name = "lnkEsportes";
             lnkEsportes.Size = new Size(51, 15);
             lnkEsportes.TabIndex = 27;
@@ -190,7 +193,7 @@
             lnkEducacao.BackColor = Color.FromArgb(192, 192, 255);
             lnkEducacao.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkEducacao.LinkColor = Color.Black;
-            lnkEducacao.Location = new Point(86, 251);
+            lnkEducacao.Location = new Point(80, 230);
             lnkEducacao.Name = "lnkEducacao";
             lnkEducacao.Size = new Size(58, 15);
             lnkEducacao.TabIndex = 26;
@@ -203,7 +206,7 @@
             lnkLiberdade.BackColor = Color.FromArgb(192, 192, 255);
             lnkLiberdade.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkLiberdade.LinkColor = Color.Black;
-            lnkLiberdade.Location = new Point(86, 185);
+            lnkLiberdade.Location = new Point(80, 164);
             lnkLiberdade.Name = "lnkLiberdade";
             lnkLiberdade.Size = new Size(59, 15);
             lnkLiberdade.TabIndex = 25;
@@ -216,26 +219,13 @@
             lnkCultura.BackColor = Color.FromArgb(192, 192, 255);
             lnkCultura.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkCultura.LinkColor = Color.Black;
-            lnkCultura.Location = new Point(86, 115);
+            lnkCultura.Location = new Point(80, 94);
             lnkCultura.Name = "lnkCultura";
             lnkCultura.Size = new Size(46, 15);
             lnkCultura.TabIndex = 24;
             lnkCultura.TabStop = true;
             lnkCultura.Text = "Cultura";
-            // 
-            // lnkFamilia
-            // 
-            lnkFamilia.AutoSize = true;
-            lnkFamilia.BackColor = Color.FromArgb(192, 192, 255);
-            lnkFamilia.DisabledLinkColor = Color.Black;
-            lnkFamilia.LinkBehavior = LinkBehavior.NeverUnderline;
-            lnkFamilia.LinkColor = Color.Black;
-            lnkFamilia.Location = new Point(86, 49);
-            lnkFamilia.Name = "lnkFamilia";
-            lnkFamilia.Size = new Size(45, 15);
-            lnkFamilia.TabIndex = 23;
-            lnkFamilia.TabStop = true;
-            lnkFamilia.Text = "Família";
+            lnkCultura.LinkClicked += lnkCultura_LinkClicked;
             // 
             // pictureBox1
             // 
@@ -276,12 +266,52 @@
             label3.TabIndex = 40;
             label3.Text = "Estado:";
             // 
+            // pictureBox9
+            // 
+            pictureBox9.BackColor = Color.FromArgb(192, 192, 255);
+            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new Point(44, 393);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(30, 30);
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox9.TabIndex = 42;
+            pictureBox9.TabStop = false;
+            pictureBox9.Click += pictureBox9_Click_1;
+            // 
+            // lbl_familia
+            // 
+            lbl_familia.AutoSize = true;
+            lbl_familia.BackColor = Color.FromArgb(192, 192, 255);
+            lbl_familia.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbl_familia.Location = new Point(80, 28);
+            lbl_familia.Name = "lbl_familia";
+            lbl_familia.Size = new Size(45, 15);
+            lbl_familia.TabIndex = 43;
+            lbl_familia.Text = "Família";
+            // 
+            // link_questionario
+            // 
+            link_questionario.AutoSize = true;
+            link_questionario.BackColor = Color.FromArgb(192, 192, 255);
+            link_questionario.LinkBehavior = LinkBehavior.NeverUnderline;
+            link_questionario.LinkColor = Color.Black;
+            link_questionario.Location = new Point(80, 408);
+            link_questionario.Name = "link_questionario";
+            link_questionario.Size = new Size(75, 15);
+            link_questionario.TabIndex = 44;
+            link_questionario.TabStop = true;
+            link_questionario.Text = "Questionário";
+            link_questionario.LinkClicked += link_questionario_LinkClicked;
+            // 
             // Familia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            Controls.Add(link_questionario);
+            Controls.Add(lbl_familia);
+            Controls.Add(pictureBox9);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -298,7 +328,6 @@
             Controls.Add(lnkEducacao);
             Controls.Add(lnkLiberdade);
             Controls.Add(lnkCultura);
-            Controls.Add(lnkFamilia);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox8);
             Name = "Familia";
@@ -311,6 +340,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -331,10 +361,12 @@
         private LinkLabel lnkEducacao;
         private LinkLabel lnkLiberdade;
         private LinkLabel lnkCultura;
-        private LinkLabel lnkFamilia;
         private PictureBox pictureBox1;
         private Label label1;
         private Label label2;
         private Label label3;
+        private PictureBox pictureBox9;
+        private Label lbl_familia;
+        private LinkLabel link_questionario;
     }
 }

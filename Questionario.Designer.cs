@@ -50,6 +50,8 @@
             pictureBox1 = new PictureBox();
             lblTituloQuestionario = new Label();
             lblNumero = new Label();
+            pictureBox9 = new PictureBox();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
@@ -57,6 +59,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             SuspendLayout();
             // 
             // btnEnviar
@@ -299,11 +302,35 @@
             lblNumero.TabIndex = 68;
             lblNumero.Text = "00 -";
             // 
+            // pictureBox9
+            // 
+            pictureBox9.BackColor = Color.FromArgb(192, 192, 255);
+            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new Point(50, 408);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(30, 30);
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox9.TabIndex = 69;
+            pictureBox9.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(192, 192, 255);
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(86, 423);
+            label1.Name = "label1";
+            label1.Size = new Size(78, 15);
+            label1.TabIndex = 70;
+            label1.Text = "Questionário";
+            // 
             // Questionario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
+            Controls.Add(pictureBox9);
             Controls.Add(lblNumero);
             Controls.Add(lblTituloQuestionario);
             Controls.Add(pictureBox7);
@@ -334,6 +361,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -361,5 +389,7 @@
         private PictureBox pictureBox1;
         private Label lblTituloQuestionario;
         private Label lblNumero;
+        private PictureBox pictureBox9;
+        private Label label1;
     }
 }

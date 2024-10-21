@@ -18,3 +18,6 @@ C:\Users\Office da Bru\source\repos\appEducacao\obj\Debug\net8.0-windows\ref\app
 C:\Users\Office da Bru\source\repos\appEducacao\obj\Debug\net8.0-windows\appEducacao.Familia.resources
 C:\Users\Office da Bru\source\repos\appEducacao\obj\Debug\net8.0-windows\appEducacao.Home.resources
 C:\Users\Office da Bru\source\repos\appEducacao\obj\Debug\net8.0-windows\appEducacao.Liberdade.resources
+C:\Users\24110300\Downloads\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.dll
+C:\Users\24110300\Downloads\appEducacaoV2\obj\Debug\net8.0-windows\refint\appEducacao.dll
+C:\Users\24110300\Downloads\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.pdb
