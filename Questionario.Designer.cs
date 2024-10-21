@@ -233,6 +233,7 @@
             lnkEducacao.TabIndex = 58;
             lnkEducacao.TabStop = true;
             lnkEducacao.Text = "Educação";
+            lnkEducacao.LinkClicked += lnkEducacao_LinkClicked;
             // 
             // lnkLiberdade
             // 
@@ -246,6 +247,7 @@
             lnkLiberdade.TabIndex = 57;
             lnkLiberdade.TabStop = true;
             lnkLiberdade.Text = "Liberdade";
+            lnkLiberdade.LinkClicked += lnkLiberdade_LinkClicked;
             // 
             // lnkCultura
             // 
@@ -273,6 +275,7 @@
             lnkFamilia.TabIndex = 55;
             lnkFamilia.TabStop = true;
             lnkFamilia.Text = "Família";
+            lnkFamilia.LinkClicked += lnkFamilia_LinkClicked;
             // 
             // pictureBox1
             // 

@@ -48,5 +48,19 @@ namespace appEducacao
             this.Hide();
             questionario.Show();
         }
+
+        private void lnkLiberdade_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Liberdade liberdade = new Liberdade();
+            this.Hide();
+            liberdade.Show();
+        }
+
+        private void lnkEducacao_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.Show();
+        }
     }
 }

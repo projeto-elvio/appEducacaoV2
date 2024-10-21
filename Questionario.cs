@@ -83,7 +83,26 @@ namespace appEducacao
 
         }
 
+        private void lnkEducacao_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.Show();
+        }
 
+        private void lnkLiberdade_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Liberdade liberdade = new Liberdade();
+            this.Hide();
+            liberdade.Show();
+        }
+
+        private void lnkFamilia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Familia familia = new Familia();
+            this.Hide(); 
+            familia.Show();   
+        }
     }
 }
 

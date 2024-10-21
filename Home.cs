@@ -22,11 +22,20 @@ namespace appEducacao
         {
 
         }
-        
+
         private void lnkFamilia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            
+            Familia familia = new Familia();
+            this.Hide();
+            familia.Show();
+        }
+
+        private void lnkLiberdade_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Liberdade liberdade = new Liberdade(); 
+            this.Hide();
+            liberdade.Show();
         }
     }
-    }
+}
 

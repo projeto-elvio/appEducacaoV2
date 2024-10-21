@@ -199,6 +199,7 @@
             lnkEducacao.TabIndex = 26;
             lnkEducacao.TabStop = true;
             lnkEducacao.Text = "Educação";
+            lnkEducacao.LinkClicked += lnkEducacao_LinkClicked;
             // 
             // lnkLiberdade
             // 
@@ -212,6 +213,7 @@
             lnkLiberdade.TabIndex = 25;
             lnkLiberdade.TabStop = true;
             lnkLiberdade.Text = "Liberdade";
+            lnkLiberdade.LinkClicked += lnkLiberdade_LinkClicked;
             // 
             // lnkCultura
             // 

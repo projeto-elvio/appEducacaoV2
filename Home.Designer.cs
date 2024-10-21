@@ -186,6 +186,7 @@
             lnkLiberdade.TabIndex = 63;
             lnkLiberdade.TabStop = true;
             lnkLiberdade.Text = "Liberdade";
+            lnkLiberdade.LinkClicked += lnkLiberdade_LinkClicked;
             // 
             // lnkCultura
             // 

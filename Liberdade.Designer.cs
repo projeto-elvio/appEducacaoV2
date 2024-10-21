@@ -37,7 +37,6 @@
             pictureBox3 = new PictureBox();
             lnkEsportes = new LinkLabel();
             lnkEducacao = new LinkLabel();
-            lnkLiberdade = new LinkLabel();
             lnkCultura = new LinkLabel();
             pictureBox1 = new PictureBox();
             pictureBox8 = new PictureBox();
@@ -49,6 +48,7 @@
             pictureBox2 = new PictureBox();
             lnkSaude = new LinkLabel();
             pictureBox7 = new PictureBox();
+            lbl_liberdade = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -152,19 +152,7 @@
             lnkEducacao.TabIndex = 45;
             lnkEducacao.TabStop = true;
             lnkEducacao.Text = "Educação";
-            // 
-            // lnkLiberdade
-            // 
-            lnkLiberdade.AutoSize = true;
-            lnkLiberdade.BackColor = Color.FromArgb(192, 192, 255);
-            lnkLiberdade.LinkBehavior = LinkBehavior.NeverUnderline;
-            lnkLiberdade.LinkColor = Color.Black;
-            lnkLiberdade.Location = new Point(85, 183);
-            lnkLiberdade.Name = "lnkLiberdade";
-            lnkLiberdade.Size = new Size(59, 15);
-            lnkLiberdade.TabIndex = 44;
-            lnkLiberdade.TabStop = true;
-            lnkLiberdade.Text = "Liberdade";
+            lnkEducacao.LinkClicked += lnkEducacao_LinkClicked;
             // 
             // lnkCultura
             // 
@@ -257,6 +245,7 @@
             lnkFamilia.TabIndex = 42;
             lnkFamilia.TabStop = true;
             lnkFamilia.Text = "Família";
+            lnkFamilia.LinkClicked += lnkFamilia_LinkClicked;
             // 
             // pictureBox2
             // 
@@ -293,11 +282,23 @@
             pictureBox7.TabIndex = 53;
             pictureBox7.TabStop = false;
             // 
+            // lbl_liberdade
+            // 
+            lbl_liberdade.AutoSize = true;
+            lbl_liberdade.BackColor = Color.FromArgb(192, 192, 255);
+            lbl_liberdade.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbl_liberdade.Location = new Point(85, 183);
+            lbl_liberdade.Name = "lbl_liberdade";
+            lbl_liberdade.Size = new Size(62, 15);
+            lbl_liberdade.TabIndex = 82;
+            lbl_liberdade.Text = "Liberdade";
+            // 
             // Liberdade
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbl_liberdade);
             Controls.Add(pictureBox9);
             Controls.Add(link_questionario);
             Controls.Add(label2);
@@ -314,7 +315,6 @@
             Controls.Add(lnkSaude);
             Controls.Add(lnkEsportes);
             Controls.Add(lnkEducacao);
-            Controls.Add(lnkLiberdade);
             Controls.Add(lnkCultura);
             Controls.Add(lnkFamilia);
             Controls.Add(pictureBox1);
@@ -343,7 +343,6 @@
         private PictureBox pictureBox3;
         private LinkLabel lnkEsportes;
         private LinkLabel lnkEducacao;
-        private LinkLabel lnkLiberdade;
         private LinkLabel lnkCultura;
         private PictureBox pictureBox1;
         private PictureBox pictureBox8;
@@ -355,5 +354,6 @@
         private PictureBox pictureBox2;
         private LinkLabel lnkSaude;
         private PictureBox pictureBox7;
+        private Label lbl_liberdade;
     }
 }

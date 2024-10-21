@@ -33,7 +33,6 @@
             lnkFamilia = new LinkLabel();
             lnkCultura = new LinkLabel();
             lnkLiberdade = new LinkLabel();
-            lnkEducacao = new LinkLabel();
             lnkEsportes = new LinkLabel();
             lnkSaude = new LinkLabel();
             pictureBox2 = new PictureBox();
@@ -47,6 +46,7 @@
             lblAcessoEducacao = new Label();
             link_questionario = new LinkLabel();
             pictureBox9 = new PictureBox();
+            lbl_familia = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -80,6 +80,7 @@
             lnkFamilia.TabIndex = 1;
             lnkFamilia.TabStop = true;
             lnkFamilia.Text = "Família";
+            lnkFamilia.LinkClicked += lnkFamilia_LinkClicked;
             // 
             // lnkCultura
             // 
@@ -107,20 +108,6 @@
             lnkLiberdade.TabStop = true;
             lnkLiberdade.Text = "Liberdade";
             lnkLiberdade.LinkClicked += linkLabel3_LinkClicked;
-            // 
-            // lnkEducacao
-            // 
-            lnkEducacao.AutoSize = true;
-            lnkEducacao.BackColor = Color.FromArgb(192, 192, 255);
-            lnkEducacao.LinkBehavior = LinkBehavior.NeverUnderline;
-            lnkEducacao.LinkColor = Color.Black;
-            lnkEducacao.Location = new Point(86, 249);
-            lnkEducacao.Name = "lnkEducacao";
-            lnkEducacao.Size = new Size(58, 15);
-            lnkEducacao.TabIndex = 4;
-            lnkEducacao.TabStop = true;
-            lnkEducacao.Text = "Educação";
-            lnkEducacao.LinkClicked += linkLabel4_LinkClicked;
             // 
             // lnkEsportes
             // 
@@ -257,6 +244,7 @@
             link_questionario.TabIndex = 46;
             link_questionario.TabStop = true;
             link_questionario.Text = "Questionário";
+            link_questionario.LinkClicked += link_questionario_LinkClicked;
             // 
             // pictureBox9
             // 
@@ -269,12 +257,24 @@
             pictureBox9.TabIndex = 45;
             pictureBox9.TabStop = false;
             // 
+            // lbl_familia
+            // 
+            lbl_familia.AutoSize = true;
+            lbl_familia.BackColor = Color.FromArgb(192, 192, 255);
+            lbl_familia.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbl_familia.Location = new Point(86, 249);
+            lbl_familia.Name = "lbl_familia";
+            lbl_familia.Size = new Size(58, 15);
+            lbl_familia.TabIndex = 47;
+            lbl_familia.Text = "Educação";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbl_familia);
             Controls.Add(link_questionario);
             Controls.Add(pictureBox9);
             Controls.Add(lblAcessoEducacao);
@@ -288,13 +288,12 @@
             Controls.Add(pictureBox2);
             Controls.Add(lnkSaude);
             Controls.Add(lnkEsportes);
-            Controls.Add(lnkEducacao);
             Controls.Add(lnkLiberdade);
             Controls.Add(lnkCultura);
             Controls.Add(lnkFamilia);
             Controls.Add(pictureBox1);
             Name = "Form1";
-            Text = "Educacao";
+            Text = "Educação";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -315,7 +314,6 @@
         private LinkLabel lnkFamilia;
         private LinkLabel lnkCultura;
         private LinkLabel lnkLiberdade;
-        private LinkLabel lnkEducacao;
         private LinkLabel lnkEsportes;
         private LinkLabel lnkSaude;
         private PictureBox pictureBox2;
@@ -329,5 +327,6 @@
         private Label lblAcessoEducacao;
         private LinkLabel link_questionario;
         private PictureBox pictureBox9;
+        private Label lbl_familia;
     }
 }

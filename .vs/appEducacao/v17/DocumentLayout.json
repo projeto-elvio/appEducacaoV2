@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\educacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:educacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\questionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:questionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\questionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:questionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\liberdade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:liberdade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|C:\\Users\\24110300\\Downloads\\appEducacaoV2\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\familia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:familia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|C:\\Users\\24110300\\Downloads\\appEducacaoV2\\familia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:familia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\educacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:educacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\liberdade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:liberdade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\liberdade.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:liberdade.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\familia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:familia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\24110300\\downloads\\appeducacaov2\\appeducacao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:appeducacao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 122,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Questionario.cs",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Questionario.cs",
+              "RelativeDocumentMoniker": "Questionario.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Questionario.cs",
+              "RelativeToolTip": "Questionario.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAcwGcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:50:43.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Questionario.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Questionario.cs",
+              "RelativeDocumentMoniker": "Questionario.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Questionario.cs [Projeto]",
+              "RelativeToolTip": "Questionario.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:50:37.944Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Educacao.cs",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Educacao.cs",
+              "RelativeDocumentMoniker": "Educacao.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Educacao.cs",
+              "RelativeToolTip": "Educacao.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAcwCoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:44:02.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Familia.cs",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Familia.cs",
+              "RelativeDocumentMoniker": "Familia.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Familia.cs",
+              "RelativeToolTip": "Familia.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAIwC4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:43:26.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Home.cs",
+              "RelativeDocumentMoniker": "Home.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Home.cs [Projeto]",
+              "RelativeToolTip": "Home.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T04:44:51.373Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Educacao.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Educacao.cs",
+              "RelativeDocumentMoniker": "Educacao.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Educacao.cs [Projeto]",
+              "RelativeToolTip": "Educacao.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:43:18.986Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Familia.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Familia.cs",
+              "RelativeDocumentMoniker": "Familia.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Familia.cs [Projeto]",
+              "RelativeToolTip": "Familia.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T04:13:23.766Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Home.cs",
+              "RelativeDocumentMoniker": "Home.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Home.cs",
+              "RelativeToolTip": "Home.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwCQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T04:45:22.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Liberdade.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Liberdade.cs",
+              "RelativeDocumentMoniker": "Liberdade.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Liberdade.cs [Projeto]",
+              "RelativeToolTip": "Liberdade.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:45:16.851Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Liberdade.cs",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Liberdade.cs",
+              "RelativeDocumentMoniker": "Liberdade.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Liberdade.cs",
+              "RelativeToolTip": "Liberdade.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAIwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T04:36:02.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T04:53:58.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Home.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Home.Designer.cs",
+              "RelativeDocumentMoniker": "Home.Designer.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Home.Designer.cs",
+              "RelativeToolTip": "Home.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T04:45:09.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Liberdade.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Liberdade.Designer.cs",
+              "RelativeDocumentMoniker": "Liberdade.Designer.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Liberdade.Designer.cs",
+              "RelativeToolTip": "Liberdade.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T05:10:38.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Familia.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Familia.Designer.cs",
+              "RelativeDocumentMoniker": "Familia.Designer.cs",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\Familia.Designer.cs",
+              "RelativeToolTip": "Familia.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwFMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T04:13:36.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appEducacao.csproj",
+              "DocumentMoniker": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\appEducacao.csproj",
+              "RelativeDocumentMoniker": "appEducacao.csproj",
+              "ToolTip": "C:\\Users\\24110300\\Downloads\\appEducacaoV2\\appEducacao.csproj",
+              "RelativeToolTip": "appEducacao.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-14T03:51:32.373Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
