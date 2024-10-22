@@ -74,7 +74,7 @@
             lnkFamilia.DisabledLinkColor = Color.Black;
             lnkFamilia.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkFamilia.LinkColor = Color.Black;
-            lnkFamilia.Location = new Point(86, 47);
+            lnkFamilia.Location = new Point(86, 31);
             lnkFamilia.Name = "lnkFamilia";
             lnkFamilia.Size = new Size(45, 15);
             lnkFamilia.TabIndex = 1;
@@ -88,7 +88,7 @@
             lnkCultura.BackColor = Color.FromArgb(192, 192, 255);
             lnkCultura.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkCultura.LinkColor = Color.Black;
-            lnkCultura.Location = new Point(86, 113);
+            lnkCultura.Location = new Point(86, 97);
             lnkCultura.Name = "lnkCultura";
             lnkCultura.Size = new Size(46, 15);
             lnkCultura.TabIndex = 2;
@@ -101,7 +101,7 @@
             lnkLiberdade.BackColor = Color.FromArgb(192, 192, 255);
             lnkLiberdade.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkLiberdade.LinkColor = Color.Black;
-            lnkLiberdade.Location = new Point(86, 183);
+            lnkLiberdade.Location = new Point(86, 167);
             lnkLiberdade.Name = "lnkLiberdade";
             lnkLiberdade.Size = new Size(59, 15);
             lnkLiberdade.TabIndex = 3;
@@ -115,7 +115,7 @@
             lnkEsportes.BackColor = Color.FromArgb(192, 192, 255);
             lnkEsportes.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkEsportes.LinkColor = Color.Black;
-            lnkEsportes.Location = new Point(86, 307);
+            lnkEsportes.Location = new Point(86, 291);
             lnkEsportes.Name = "lnkEsportes";
             lnkEsportes.Size = new Size(51, 15);
             lnkEsportes.TabIndex = 5;
@@ -128,7 +128,7 @@
             lnkSaude.BackColor = Color.FromArgb(192, 192, 255);
             lnkSaude.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkSaude.LinkColor = Color.Black;
-            lnkSaude.Location = new Point(86, 370);
+            lnkSaude.Location = new Point(86, 354);
             lnkSaude.Name = "lnkSaude";
             lnkSaude.Size = new Size(39, 15);
             lnkSaude.TabIndex = 6;
@@ -139,7 +139,7 @@
             // 
             pictureBox2.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(50, 32);
+            pictureBox2.Location = new Point(50, 16);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(30, 30);
             pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -151,7 +151,7 @@
             // 
             pictureBox3.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(50, 98);
+            pictureBox3.Location = new Point(50, 82);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(30, 30);
             pictureBox3.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -162,7 +162,7 @@
             // 
             pictureBox4.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(50, 168);
+            pictureBox4.Location = new Point(50, 152);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(30, 30);
             pictureBox4.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -173,7 +173,7 @@
             // 
             pictureBox5.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(50, 234);
+            pictureBox5.Location = new Point(50, 218);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(30, 30);
             pictureBox5.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -184,7 +184,7 @@
             // 
             pictureBox6.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(50, 292);
+            pictureBox6.Location = new Point(50, 276);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(30, 30);
             pictureBox6.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -195,7 +195,7 @@
             // 
             pictureBox7.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(50, 355);
+            pictureBox7.Location = new Point(50, 339);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(30, 30);
             pictureBox7.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -238,7 +238,7 @@
             link_questionario.BackColor = Color.FromArgb(192, 192, 255);
             link_questionario.LinkBehavior = LinkBehavior.NeverUnderline;
             link_questionario.LinkColor = Color.Black;
-            link_questionario.Location = new Point(86, 423);
+            link_questionario.Location = new Point(86, 416);
             link_questionario.Name = "link_questionario";
             link_questionario.Size = new Size(75, 15);
             link_questionario.TabIndex = 46;
@@ -250,7 +250,7 @@
             // 
             pictureBox9.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(50, 408);
+            pictureBox9.Location = new Point(50, 401);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(30, 30);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -262,7 +262,7 @@
             lbl_familia.AutoSize = true;
             lbl_familia.BackColor = Color.FromArgb(192, 192, 255);
             lbl_familia.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_familia.Location = new Point(86, 249);
+            lbl_familia.Location = new Point(86, 233);
             lbl_familia.Name = "lbl_familia";
             lbl_familia.Size = new Size(58, 15);
             lbl_familia.TabIndex = 47;
@@ -293,6 +293,7 @@
             Controls.Add(lnkFamilia);
             Controls.Add(pictureBox1);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Educação";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

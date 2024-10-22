@@ -306,6 +306,7 @@
             Controls.Add(lnkFamilia);
             Controls.Add(pictureBox1);
             Name = "Home";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Home";
             Load += Home_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();

@@ -319,6 +319,7 @@
             Controls.Add(lnkFamilia);
             Controls.Add(pictureBox1);
             Name = "Liberdade";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Liberdade";
             Load += Liberdade_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
