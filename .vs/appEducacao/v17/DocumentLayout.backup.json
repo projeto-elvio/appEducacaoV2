@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\win 10\\desktop\\appeducacaov2\\creditos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:creditos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\win 10\\desktop\\appeducacaov2\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,11 +15,7 @@
       "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\win 10\\desktop\\appeducacaov2\\creditos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:creditos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\educacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|c:\\users\\win 10\\desktop\\appeducacaov2\\educacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0859FC82-C544-4F9E-A87D-8B0CB8C237A3}|appEducacao.csproj|solutionrelative:educacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -77,24 +77,25 @@
               "ToolTip": "C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\Educacao.cs [Projeto]",
               "RelativeToolTip": "Educacao.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T12:01:04.993Z"
+              "WhenOpened": "2024-10-29T12:01:04.993Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Creditos.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\Creditos.Designer.cs",
               "RelativeDocumentMoniker": "Creditos.Designer.cs",
               "ToolTip": "C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\Creditos.Designer.cs",
               "RelativeToolTip": "Creditos.Designer.cs",
-              "ViewState": "AgIAANAAAAAAAAAAAAAtwNIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANAAAAAAAAAAAAAtwN4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T11:50:56.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Creditos.cs",
               "DocumentMoniker": "C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\Creditos.cs",
               "RelativeDocumentMoniker": "Creditos.cs",
@@ -107,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Creditos.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\Creditos.cs",
               "RelativeDocumentMoniker": "Creditos.cs",
@@ -127,7 +128,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T04:53:58.683Z"
+              "WhenOpened": "2024-09-14T04:53:58.683Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -163,7 +165,8 @@
               "ToolTip": "C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\Familia.cs [Projeto]",
               "RelativeToolTip": "Familia.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T04:13:23.766Z"
+              "WhenOpened": "2024-09-14T04:13:23.766Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
@@ -222,7 +225,8 @@
               "RelativeToolTip": "Familia.Designer.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwFMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T04:13:36.354Z"
+              "WhenOpened": "2024-09-14T04:13:36.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
