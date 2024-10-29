@@ -298,6 +298,7 @@
             // 
             // lblNumero
             // 
+            lblNumero.BackColor = Color.Transparent;
             lblNumero.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblNumero.Location = new Point(212, 130);
             lblNumero.Name = "lblNumero";
@@ -356,6 +357,7 @@
             Controls.Add(lblPergunta);
             Controls.Add(btnEnviar);
             Name = "Questionario";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Questionario";
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();

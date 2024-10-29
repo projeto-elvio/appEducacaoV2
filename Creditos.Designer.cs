@@ -49,8 +49,12 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            label4 = new Label();
+            lblNomes = new Label();
             label5 = new Label();
+            pictureBox10 = new PictureBox();
+            label4 = new Label();
+            label6 = new Label();
+            pictureBox12 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -59,6 +63,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             SuspendLayout();
             // 
             // link_questionario
@@ -240,7 +246,7 @@
             // 
             lblCreditos.AutoSize = true;
             lblCreditos.Font = new Font("Segoe UI", 35F);
-            lblCreditos.Location = new Point(434, 12);
+            lblCreditos.Location = new Point(403, 12);
             lblCreditos.Name = "lblCreditos";
             lblCreditos.Size = new Size(200, 62);
             lblCreditos.TabIndex = 60;
@@ -251,7 +257,7 @@
             lblTextoAE.BackColor = Color.Transparent;
             lblTextoAE.Font = new Font("Segoe UI", 11F);
             lblTextoAE.ForeColor = SystemColors.ControlText;
-            lblTextoAE.Location = new Point(298, 89);
+            lblTextoAE.Location = new Point(288, 73);
             lblTextoAE.Name = "lblTextoAE";
             lblTextoAE.Size = new Size(229, 29);
             lblTextoAE.TabIndex = 62;
@@ -262,7 +268,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(219, 93);
+            label1.Location = new Point(209, 77);
             label1.Name = "label1";
             label1.Size = new Size(73, 20);
             label1.TabIndex = 63;
@@ -272,7 +278,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(219, 135);
+            label2.Location = new Point(209, 119);
             label2.Name = "label2";
             label2.Size = new Size(81, 20);
             label2.TabIndex = 64;
@@ -283,34 +289,76 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 11F);
             label3.ForeColor = SystemColors.ControlText;
-            label3.Location = new Point(298, 131);
+            label3.Location = new Point(296, 115);
             label3.Name = "label3";
             label3.Size = new Size(229, 29);
             label3.TabIndex = 65;
-            label3.Text = "Elvio Gilberto da Silva";
+            label3.Text = "Prof. Dr. Elvio Gilberto da Silva";
             label3.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // label4
+            // lblNomes
             // 
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Segoe UI", 11F);
-            label4.ForeColor = SystemColors.ControlText;
-            label4.Location = new Point(357, 179);
-            label4.Name = "label4";
-            label4.Size = new Size(439, 20);
-            label4.TabIndex = 67;
-            label4.Text = "Bruna Raissa Correa Moura, Camila Pereira Raimundo, ";
-            label4.TextAlign = ContentAlignment.MiddleLeft;
+            lblNomes.BackColor = Color.Transparent;
+            lblNomes.Font = new Font("Segoe UI", 11F);
+            lblNomes.ForeColor = SystemColors.ControlText;
+            lblNomes.Location = new Point(347, 163);
+            lblNomes.Name = "lblNomes";
+            lblNomes.Size = new Size(441, 65);
+            lblNomes.TabIndex = 67;
+            lblNomes.Text = "Bruna Raissa Correa Moura, Camila Pereira Raimundo, Leonardo Gabriel Lopes Queiroz, Otávio Aparecido Pegorin, Thais Carolina Henrique";
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(219, 179);
+            label5.Location = new Point(209, 163);
             label5.Name = "label5";
             label5.Size = new Size(132, 20);
             label5.TabIndex = 66;
             label5.Text = "Desenvolvedores:";
+            // 
+            // pictureBox10
+            // 
+            pictureBox10.AccessibleRole = AccessibleRole.IpAddress;
+            pictureBox10.BackColor = Color.White;
+            pictureBox10.BackgroundImage = Properties.Resources.unisagrado_jpg_alta_01;
+            pictureBox10.Image = Properties.Resources.Ciencia_da_Computacao;
+            pictureBox10.Location = new Point(257, 314);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(188, 104);
+            pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox10.TabIndex = 69;
+            pictureBox10.TabStop = false;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(210, 282);
+            label4.Name = "label4";
+            label4.Size = new Size(131, 20);
+            label4.TabIndex = 70;
+            label4.Text = "Desenvolvimento";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Location = new Point(504, 287);
+            label6.Name = "label6";
+            label6.Size = new Size(51, 20);
+            label6.TabIndex = 71;
+            label6.Text = "Apoio";
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Image = Properties.Resources.coordenadoria_de_extensao;
+            pictureBox12.Location = new Point(527, 314);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(230, 70);
+            pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox12.TabIndex = 73;
+            pictureBox12.TabStop = false;
             // 
             // Creditos
             // 
@@ -318,7 +366,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox12);
+            Controls.Add(label6);
             Controls.Add(label4);
+            Controls.Add(pictureBox10);
+            Controls.Add(lblNomes);
             Controls.Add(label5);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -351,6 +403,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -377,7 +431,11 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private Label label4;
+        private Label lblNomes;
         private Label label5;
+        private PictureBox pictureBox10;
+        private Label label4;
+        private Label label6;
+        private PictureBox pictureBox12;
     }
 }

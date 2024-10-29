@@ -63,6 +63,36 @@ namespace appEducacao.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Ciencia_da_Computacao {
+            get {
+                object obj = ResourceManager.GetObject("Ciencia_da_Computacao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coordenadoria_de_extensao {
+            get {
+                object obj = ResourceManager.GetObject("coordenadoria-de-extensao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap extensao {
+            get {
+                object obj = ResourceManager.GetObject("extensao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap questionario {
             get {
                 object obj = ResourceManager.GetObject("questionario", resourceCulture);
@@ -76,6 +106,26 @@ namespace appEducacao.Properties {
         internal static System.Drawing.Bitmap questionnaire {
             get {
                 object obj = ResourceManager.GetObject("questionnaire", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unisagrado_jpg_alta_01 {
+            get {
+                object obj = ResourceManager.GetObject("unisagrado-jpg-alta-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unisagrado_transparente_cor {
+            get {
+                object obj = ResourceManager.GetObject("unisagrado-transparente-cor", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

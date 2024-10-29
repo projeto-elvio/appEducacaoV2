@@ -245,7 +245,7 @@
             label2.Size = new Size(212, 148);
             label2.TabIndex = 78;
             label2.Text = "Importância do Tema \nA garantia dos direitos das crianças e adolescentes é essencial para o desenvolvimento social, promovendo uma sociedade mais justa e equitativa.";
-            label2.TextAlign = ContentAlignment.TopCenter;
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // pictureBox8
             // 
