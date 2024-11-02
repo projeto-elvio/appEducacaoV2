@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Office da Bru\\source\\repos\\appEducacao\\appEducacao.csproj": {}
+    "C:\\Users\\Gustavo Leão\\Desktop\\appEducacaoV2\\appEducacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Office da Bru\\source\\repos\\appEducacao\\appEducacao.csproj": {
+    "C:\\Users\\Gustavo Leão\\Desktop\\appEducacaoV2\\appEducacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Office da Bru\\source\\repos\\appEducacao\\appEducacao.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo Leão\\Desktop\\appEducacaoV2\\appEducacao.csproj",
         "projectName": "appEducacao",
-        "projectPath": "C:\\Users\\Office da Bru\\source\\repos\\appEducacao\\appEducacao.csproj",
-        "packagesPath": "C:\\Users\\Office da Bru\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Office da Bru\\source\\repos\\appEducacao\\obj\\",
+        "projectPath": "C:\\Users\\Gustavo Leão\\Desktop\\appEducacaoV2\\appEducacao.csproj",
+        "packagesPath": "C:\\Users\\Gustavo Leão\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo Leão\\Desktop\\appEducacaoV2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Office da Bru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gustavo Leão\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
