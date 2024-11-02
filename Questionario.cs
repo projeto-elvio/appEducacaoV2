@@ -83,12 +83,21 @@ namespace appEducacao
 
         }
 
-        private void lnkEducacao_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void lbl_home_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            Home home = new Home();
             this.Hide();
-            form1.Show();
+            home.Show();
         }
+
+        private void lnkFamilia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Familia familia = new Familia();
+            this.Hide();
+            familia.Show();
+        }
+
+        //Cultura
 
         private void lnkLiberdade_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -97,11 +106,29 @@ namespace appEducacao
             liberdade.Show();
         }
 
-        private void lnkFamilia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void lnkEducacao_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Familia familia = new Familia();
-            this.Hide(); 
-            familia.Show();   
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.Show();
+        }
+
+        //esportes
+
+        //saude 
+
+        private void link_questionario_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Questionario questionario = new Questionario();
+            this.Hide();
+            questionario.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Creditos creditos = new Creditos();
+            this.Hide();
+            creditos.Show();
         }
     }
 }

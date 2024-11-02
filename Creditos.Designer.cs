@@ -85,6 +85,7 @@
             link_questionario.TabIndex = 59;
             link_questionario.TabStop = true;
             link_questionario.Text = "Questionário";
+            link_questionario.LinkClicked += link_questionario_LinkClicked;
             // 
             // lbl_familia
             // 
@@ -220,6 +221,7 @@
             lnkLiberdade.TabIndex = 47;
             lnkLiberdade.TabStop = true;
             lnkLiberdade.Text = "Liberdade";
+            lnkLiberdade.LinkClicked += lnkLiberdade_LinkClicked;
             lnkLiberdade.Click += lnkLiberdade_Click;
             // 
             // lnkCultura
@@ -263,7 +265,7 @@
             lblTextoAE.ForeColor = SystemColors.ControlText;
             lblTextoAE.Location = new Point(329, 97);
             lblTextoAE.Name = "lblTextoAE";
-            lblTextoAE.Size = new Size(262, 39);
+            lblTextoAE.Size = new Size(343, 39);
             lblTextoAE.TabIndex = 62;
             lblTextoAE.Text = "Programação de Computadores";
             lblTextoAE.TextAlign = ContentAlignment.MiddleLeft;
@@ -295,7 +297,7 @@
             label3.ForeColor = SystemColors.ControlText;
             label3.Location = new Point(338, 153);
             label3.Name = "label3";
-            label3.Size = new Size(262, 39);
+            label3.Size = new Size(358, 39);
             label3.TabIndex = 65;
             label3.Text = "Prof. Dr. Elvio Gilberto da Silva";
             label3.TextAlign = ContentAlignment.MiddleLeft;
@@ -305,7 +307,7 @@
             lblNomes.BackColor = Color.Transparent;
             lblNomes.Font = new Font("Segoe UI", 11F);
             lblNomes.ForeColor = SystemColors.ControlText;
-            lblNomes.Location = new Point(397, 217);
+            lblNomes.Location = new Point(413, 217);
             lblNomes.Name = "lblNomes";
             lblNomes.Size = new Size(504, 87);
             lblNomes.TabIndex = 67;
@@ -379,6 +381,7 @@
             linkLabel1.TabIndex = 77;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Créditos";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // pictureBox11
             // 
@@ -426,6 +429,7 @@
             lbl_Educacao.Size = new Size(73, 20);
             lbl_Educacao.TabIndex = 80;
             lbl_Educacao.Text = "Educação";
+            lbl_Educacao.Click += lbl_Educacao_Click;
             // 
             // Creditos
             // 
