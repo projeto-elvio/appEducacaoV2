@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Office da Bru\\.nuget\\packages\\": {}
+    "C:\\Users\\Win 10\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Office da Bru\\source\\repos\\appEducacao\\appEducacao.csproj",
+      "projectUniqueName": "C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\appEducacao.csproj",
       "projectName": "appEducacao",
-      "projectPath": "C:\\Users\\Office da Bru\\source\\repos\\appEducacao\\appEducacao.csproj",
-      "packagesPath": "C:\\Users\\Office da Bru\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Office da Bru\\source\\repos\\appEducacao\\obj\\",
+      "projectPath": "C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\appEducacao.csproj",
+      "packagesPath": "C:\\Users\\Win 10\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Win 10\\Desktop\\appEducacaoV2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Office da Bru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Win 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

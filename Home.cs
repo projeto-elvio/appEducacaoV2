@@ -22,11 +22,54 @@ namespace appEducacao
         {
 
         }
-        
+
+        private void lbl_home_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            this.Hide();
+            home.Show();
+        }
+
         private void lnkFamilia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            
+            Familia familia = new Familia();
+            this.Hide();
+            familia.Show();
+        }
+
+        //cultura
+
+        private void lnkLiberdade_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Liberdade liberdade = new Liberdade();
+            this.Hide();
+            liberdade.Show();
+        }
+
+        private void lbl_Educacao_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.Show();
+        }
+
+        private void link_questionario_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Questionario questionario = new Questionario();
+            this.Hide();
+            questionario.Show();
+        }
+
+        //esportes
+
+        //saude
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Creditos creditos = new Creditos();
+            this.Hide();
+            creditos.Show();
         }
     }
-    }
+}
 
