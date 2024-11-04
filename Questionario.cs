@@ -78,7 +78,18 @@ namespace appEducacao
             }
             else
             {
-                MessageBox.Show("Teste concluído!");
+                DialogResult resultado = MessageBox.Show("Teste concluido, deseja começar novamente? ", "Final do Questionário", MessageBoxButtons.YesNo);
+                if (resultado == DialogResult.Yes)
+                {
+                    perguntaAtual = 0;
+                    CarregarPergunta();
+                }
+                else { 
+                    Creditos creditos = new Creditos();
+                    this.Hide();
+                    creditos.Show();
+                }
+
             }
 
         }
@@ -177,6 +188,16 @@ namespace appEducacao
             Saude saude = new Saude();
             this.Hide();
             saude.Show();
+        }
+
+        private void lblPergunta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Questionario_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

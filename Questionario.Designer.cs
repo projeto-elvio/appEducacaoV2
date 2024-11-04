@@ -90,6 +90,7 @@
             lblPergunta.Size = new Size(497, 103);
             lblPergunta.TabIndex = 1;
             lblPergunta.Text = "Pergunta";
+            lblPergunta.Click += lblPergunta_Click;
             // 
             // radioButton1
             // 
@@ -424,6 +425,7 @@
             Name = "Questionario";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Questionario";
+            Load += Questionario_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
