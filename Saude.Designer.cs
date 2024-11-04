@@ -1,12 +1,11 @@
 ﻿namespace appEducacao
 {
-    partial class Familia
+    partial class Saude
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-     
 
         /// <summary>
         /// Clean up any resources being used.
@@ -21,7 +20,6 @@
             base.Dispose(disposing);
         }
 
-
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -30,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Familia));
-            lblAcessoEducacao = new Label();
-            lblTextoAE = new Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Saude));
             pictureBox8 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
+            textBox1 = new TextBox();
             label3 = new Label();
+            linkLabel3 = new LinkLabel();
+            linkLabel2 = new LinkLabel();
+            lbl_Educacao = new Label();
+            lbl_home = new Label();
             pictureBox1 = new PictureBox();
             linkLabel1 = new LinkLabel();
             pictureBox11 = new PictureBox();
@@ -54,8 +55,6 @@
             lnkLiberdade = new LinkLabel();
             lnkCultura = new LinkLabel();
             pictureBox10 = new PictureBox();
-            linkLabel2 = new LinkLabel();
-            linkLabel3 = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
@@ -69,67 +68,105 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             SuspendLayout();
             // 
-            // lblAcessoEducacao
-            // 
-            lblAcessoEducacao.AutoSize = true;
-            lblAcessoEducacao.Font = new Font("Segoe UI", 35F);
-            lblAcessoEducacao.Location = new Point(410, 11);
-            lblAcessoEducacao.Name = "lblAcessoEducacao";
-            lblAcessoEducacao.Size = new Size(169, 62);
-            lblAcessoEducacao.TabIndex = 37;
-            lblAcessoEducacao.Text = "Família";
-            // 
-            // lblTextoAE
-            // 
-            lblTextoAE.BackColor = Color.Transparent;
-            lblTextoAE.Font = new Font("Segoe UI", 11F);
-            lblTextoAE.ForeColor = SystemColors.ControlText;
-            lblTextoAE.Location = new Point(243, 80);
-            lblTextoAE.Name = "lblTextoAE";
-            lblTextoAE.Size = new Size(546, 162);
-            lblTextoAE.TabIndex = 36;
-            lblTextoAE.Text = resources.GetString("lblTextoAE.Text");
-            lblTextoAE.TextAlign = ContentAlignment.MiddleLeft;
-            // 
             // pictureBox8
             // 
+            pictureBox8.BackColor = Color.White;
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(382, 236);
+            pictureBox8.Location = new Point(211, 138);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(420, 236);
-            pictureBox8.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox8.TabIndex = 35;
+            pictureBox8.Size = new Size(218, 174);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 80;
             pictureBox8.TabStop = false;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(209, 65);
+            label1.BackColor = SystemColors.ButtonFace;
+            label1.Location = new Point(504, 59);
             label1.Name = "label1";
-            label1.Size = new Size(63, 20);
-            label1.TabIndex = 38;
-            label1.Text = "Familia:";
+            label1.Size = new Size(0, 15);
+            label1.TabIndex = 81;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(209, 132);
+            label2.Location = new Point(211, 220);
             label2.Name = "label2";
-            label2.Size = new Size(83, 20);
-            label2.TabIndex = 39;
-            label2.Text = "Sociedade:";
+            label2.Size = new Size(0, 15);
+            label2.TabIndex = 82;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.White;
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(446, 105);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(330, 314);
+            textBox1.TabIndex = 83;
+            textBox1.Text = resources.GetString("textBox1.Text");
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(211, 188);
+            label3.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(446, 57);
             label3.Name = "label3";
-            label3.Size = new Size(60, 20);
-            label3.TabIndex = 40;
-            label3.Text = "Estado:";
+            label3.Size = new Size(111, 45);
+            label3.TabIndex = 84;
+            label3.Text = "Saúde";
+            // 
+            // linkLabel3
+            // 
+            linkLabel3.AutoSize = true;
+            linkLabel3.BackColor = Color.FromArgb(192, 192, 255);
+            linkLabel3.LinkBehavior = LinkBehavior.NeverUnderline;
+            linkLabel3.LinkColor = Color.Black;
+            linkLabel3.Location = new Point(75, 217);
+            linkLabel3.Name = "linkLabel3";
+            linkLabel3.Size = new Size(58, 15);
+            linkLabel3.TabIndex = 122;
+            linkLabel3.TabStop = true;
+            linkLabel3.Text = "Educação";
+            linkLabel3.LinkClicked += linkLabel3_LinkClicked;
+            // 
+            // linkLabel2
+            // 
+            linkLabel2.AutoSize = true;
+            linkLabel2.BackColor = Color.FromArgb(192, 192, 255);
+            linkLabel2.LinkBehavior = LinkBehavior.NeverUnderline;
+            linkLabel2.LinkColor = Color.Black;
+            linkLabel2.Location = new Point(75, 79);
+            linkLabel2.Name = "linkLabel2";
+            linkLabel2.Size = new Size(45, 15);
+            linkLabel2.TabIndex = 121;
+            linkLabel2.TabStop = true;
+            linkLabel2.Text = "Família";
+            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
+            // 
+            // lbl_Educacao
+            // 
+            lbl_Educacao.AutoSize = true;
+            lbl_Educacao.BackColor = Color.FromArgb(192, 192, 255);
+            lbl_Educacao.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_Educacao.Location = new Point(74, 217);
+            lbl_Educacao.Name = "lbl_Educacao";
+            lbl_Educacao.Size = new Size(0, 15);
+            lbl_Educacao.TabIndex = 120;
+            // 
+            // lbl_home
+            // 
+            lbl_home.AutoSize = true;
+            lbl_home.BackColor = Color.FromArgb(192, 192, 255);
+            lbl_home.Font = new Font("Segoe UI Black", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbl_home.Location = new Point(78, 307);
+            lbl_home.Name = "lbl_home";
+            lbl_home.Size = new Size(51, 19);
+            lbl_home.TabIndex = 119;
+            lbl_home.Text = "Saúde";
+            lbl_home.Click += lbl_home_Click;
             // 
             // pictureBox1
             // 
@@ -139,7 +176,7 @@
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(34, 46);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 135;
+            pictureBox1.TabIndex = 118;
             pictureBox1.TabStop = false;
             // 
             // linkLabel1
@@ -149,10 +186,10 @@
             linkLabel1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             linkLabel1.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel1.LinkColor = Color.Black;
-            linkLabel1.Location = new Point(75, 403);
+            linkLabel1.Location = new Point(74, 402);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(51, 15);
-            linkLabel1.TabIndex = 134;
+            linkLabel1.TabIndex = 117;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Créditos";
             linkLabel1.LinkClicked += linkLabel1_LinkClicked;
@@ -165,7 +202,7 @@
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(34, 46);
             pictureBox11.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox11.TabIndex = 133;
+            pictureBox11.TabIndex = 116;
             pictureBox11.TabStop = false;
             // 
             // link_questionario
@@ -174,24 +211,23 @@
             link_questionario.BackColor = Color.FromArgb(192, 192, 255);
             link_questionario.LinkBehavior = LinkBehavior.NeverUnderline;
             link_questionario.LinkColor = Color.Black;
-            link_questionario.Location = new Point(75, 356);
+            link_questionario.Location = new Point(74, 356);
             link_questionario.Name = "link_questionario";
             link_questionario.Size = new Size(75, 15);
-            link_questionario.TabIndex = 132;
+            link_questionario.TabIndex = 115;
             link_questionario.TabStop = true;
             link_questionario.Text = "Questionário";
-            link_questionario.LinkClicked += link_questionario_LinkClicked_1;
+            link_questionario.LinkClicked += link_questionario_LinkClicked;
             // 
             // lbl_familia
             // 
             lbl_familia.AutoSize = true;
             lbl_familia.BackColor = Color.FromArgb(192, 192, 255);
-            lbl_familia.Font = new Font("Segoe UI Black", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_familia.Location = new Point(75, 80);
+            lbl_familia.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_familia.Location = new Point(74, 79);
             lbl_familia.Name = "lbl_familia";
-            lbl_familia.Size = new Size(58, 19);
-            lbl_familia.TabIndex = 131;
-            lbl_familia.Text = "Família";
+            lbl_familia.Size = new Size(0, 15);
+            lbl_familia.TabIndex = 114;
             // 
             // pictureBox9
             // 
@@ -201,7 +237,7 @@
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(34, 46);
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox9.TabIndex = 130;
+            pictureBox9.TabIndex = 113;
             pictureBox9.TabStop = false;
             // 
             // pictureBox7
@@ -212,7 +248,7 @@
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(34, 46);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox7.TabIndex = 129;
+            pictureBox7.TabIndex = 112;
             pictureBox7.TabStop = false;
             // 
             // pictureBox6
@@ -223,18 +259,18 @@
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(34, 46);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox6.TabIndex = 128;
+            pictureBox6.TabIndex = 111;
             pictureBox6.TabStop = false;
             // 
             // pictureBox5
             // 
             pictureBox5.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(39, 199);
+            pictureBox5.Location = new Point(39, 198);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(34, 46);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox5.TabIndex = 127;
+            pictureBox5.TabIndex = 110;
             pictureBox5.TabStop = false;
             // 
             // pictureBox4
@@ -245,7 +281,7 @@
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(34, 46);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox4.TabIndex = 126;
+            pictureBox4.TabIndex = 109;
             pictureBox4.TabStop = false;
             // 
             // pictureBox3
@@ -256,7 +292,7 @@
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(34, 46);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox3.TabIndex = 125;
+            pictureBox3.TabIndex = 108;
             pictureBox3.TabStop = false;
             // 
             // pictureBox2
@@ -267,7 +303,7 @@
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(34, 46);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 124;
+            pictureBox2.TabIndex = 107;
             pictureBox2.TabStop = false;
             // 
             // lnkSaude
@@ -276,12 +312,12 @@
             lnkSaude.BackColor = Color.FromArgb(192, 192, 255);
             lnkSaude.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkSaude.LinkColor = Color.Black;
-            lnkSaude.Location = new Point(75, 309);
+            lnkSaude.Location = new Point(78, 30);
             lnkSaude.Name = "lnkSaude";
-            lnkSaude.Size = new Size(39, 15);
-            lnkSaude.TabIndex = 123;
+            lnkSaude.Size = new Size(40, 15);
+            lnkSaude.TabIndex = 106;
             lnkSaude.TabStop = true;
-            lnkSaude.Text = "Saúde";
+            lnkSaude.Text = "Home";
             lnkSaude.LinkClicked += lnkSaude_LinkClicked;
             // 
             // lnkEsportes
@@ -290,10 +326,10 @@
             lnkEsportes.BackColor = Color.FromArgb(192, 192, 255);
             lnkEsportes.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkEsportes.LinkColor = Color.Black;
-            lnkEsportes.Location = new Point(75, 262);
+            lnkEsportes.Location = new Point(74, 262);
             lnkEsportes.Name = "lnkEsportes";
             lnkEsportes.Size = new Size(51, 15);
-            lnkEsportes.TabIndex = 122;
+            lnkEsportes.TabIndex = 105;
             lnkEsportes.TabStop = true;
             lnkEsportes.Text = "Esportes";
             lnkEsportes.LinkClicked += lnkEsportes_LinkClicked;
@@ -302,16 +338,15 @@
             // 
             lnkLiberdade.AutoSize = true;
             lnkLiberdade.BackColor = Color.FromArgb(192, 192, 255);
-            lnkLiberdade.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lnkLiberdade.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkLiberdade.LinkColor = Color.Black;
-            lnkLiberdade.Location = new Point(75, 172);
+            lnkLiberdade.Location = new Point(74, 172);
             lnkLiberdade.Name = "lnkLiberdade";
             lnkLiberdade.Size = new Size(54, 15);
-            lnkLiberdade.TabIndex = 121;
+            lnkLiberdade.TabIndex = 104;
             lnkLiberdade.TabStop = true;
             lnkLiberdade.Text = "Proteção";
-            lnkLiberdade.LinkClicked += lnkLiberdade_LinkClicked_1;
+            lnkLiberdade.LinkClicked += lnkLiberdade_LinkClicked;
             // 
             // lnkCultura
             // 
@@ -319,60 +354,33 @@
             lnkCultura.BackColor = Color.FromArgb(192, 192, 255);
             lnkCultura.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkCultura.LinkColor = Color.Black;
-            lnkCultura.Location = new Point(75, 124);
+            lnkCultura.Location = new Point(74, 124);
             lnkCultura.Name = "lnkCultura";
             lnkCultura.Size = new Size(46, 15);
-            lnkCultura.TabIndex = 120;
+            lnkCultura.TabIndex = 103;
             lnkCultura.TabStop = true;
             lnkCultura.Text = "Cultura";
-            lnkCultura.LinkClicked += lnkCultura_LinkClicked_1;
+            lnkCultura.LinkClicked += lnkCultura_LinkClicked;
             // 
             // pictureBox10
             // 
             pictureBox10.BackColor = Color.FromArgb(192, 192, 255);
-            pictureBox10.Location = new Point(0, 0);
+            pictureBox10.Location = new Point(-1, 0);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(193, 453);
-            pictureBox10.TabIndex = 119;
+            pictureBox10.TabIndex = 102;
             pictureBox10.TabStop = false;
             // 
-            // linkLabel2
-            // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.BackColor = Color.FromArgb(192, 192, 255);
-            linkLabel2.LinkBehavior = LinkBehavior.NeverUnderline;
-            linkLabel2.LinkColor = Color.Black;
-            linkLabel2.Location = new Point(75, 29);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(40, 15);
-            linkLabel2.TabIndex = 138;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "Home";
-            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
-            // 
-            // linkLabel3
-            // 
-            linkLabel3.AutoSize = true;
-            linkLabel3.BackColor = Color.FromArgb(192, 192, 255);
-            linkLabel3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkLabel3.LinkBehavior = LinkBehavior.NeverUnderline;
-            linkLabel3.LinkColor = Color.Black;
-            linkLabel3.Location = new Point(75, 215);
-            linkLabel3.Name = "linkLabel3";
-            linkLabel3.Size = new Size(58, 15);
-            linkLabel3.TabIndex = 139;
-            linkLabel3.TabStop = true;
-            linkLabel3.Text = "Educação";
-            linkLabel3.LinkClicked += linkLabel3_LinkClicked;
-            // 
-            // Familia
+            // Saude
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Lavender;
+            BackColor = Color.White;
             ClientSize = new Size(800, 450);
             Controls.Add(linkLabel3);
             Controls.Add(linkLabel2);
+            Controls.Add(lbl_Educacao);
+            Controls.Add(lbl_home);
             Controls.Add(pictureBox1);
             Controls.Add(linkLabel1);
             Controls.Add(pictureBox11);
@@ -391,14 +399,14 @@
             Controls.Add(lnkCultura);
             Controls.Add(pictureBox10);
             Controls.Add(label3);
+            Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(lblAcessoEducacao);
-            Controls.Add(lblTextoAE);
             Controls.Add(pictureBox8);
-            Name = "Familia";
+            Name = "Saude";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Familia";
+            Text = "Saude";
+            Load += SAUDEE_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
@@ -415,13 +423,15 @@
         }
 
         #endregion
-
-        private Label lblAcessoEducacao;
-        private Label lblTextoAE;
         private PictureBox pictureBox8;
         private Label label1;
         private Label label2;
+        private TextBox textBox1;
         private Label label3;
+        private LinkLabel linkLabel3;
+        private LinkLabel linkLabel2;
+        private Label lbl_Educacao;
+        private Label lbl_home;
         private PictureBox pictureBox1;
         private LinkLabel linkLabel1;
         private PictureBox pictureBox11;
@@ -439,7 +449,5 @@
         private LinkLabel lnkLiberdade;
         private LinkLabel lnkCultura;
         private PictureBox pictureBox10;
-        private LinkLabel linkLabel2;
-        private LinkLabel linkLabel3;
     }
 }

@@ -9,7 +9,7 @@ namespace appEducacao
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Liberdade liberdade = new Liberdade();
+            Protecao liberdade = new Protecao();
             this.Hide();
             liberdade.Show();
         }
@@ -48,23 +48,14 @@ namespace appEducacao
 
         private void lnkLiberdade_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Liberdade liberdade = new Liberdade();
+            Protecao protecao = new Protecao();
             this.Hide();
-            liberdade.Show();
-        }
-
-        private void lnkLiberdade_Click(object sender, EventArgs e)
-        {
-            Liberdade liberdade = new Liberdade();
-            this.Hide();
-            liberdade.Show();
+            protecao.Show();
         }
 
         private void lbl_Educacao_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
-            this.Hide();
-            form1.Show();
+
         }
 
         //esportes
@@ -85,6 +76,51 @@ namespace appEducacao
             creditos.Show();
         }
 
+        private void linkLabel3_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Home home = new Home();
+            this.Hide();
+            home.Show();
+        }
 
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Familia familia = new Familia();
+            this.Hide();
+            familia.Show();
+        }
+
+        private void lnkCultura_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Cultura cultura = new Cultura();
+            this.Hide();
+            cultura.Show();
+        }
+
+        private void lnkEsportes_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Esportes esportes = new Esportes();
+            this.Hide();
+            esportes.Show();
+        }
+
+        private void lnkSaude_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Saude saude = new Saude();
+            this.Hide();
+            saude.Show();
+        }
+
+        private void link_questionario_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Questionario questionario = new Questionario();
+            this.Hide();
+            questionario.Show();
+        }
+
+        private void lblAcessoEducacao_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

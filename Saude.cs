@@ -10,24 +10,24 @@ using System.Windows.Forms;
 
 namespace appEducacao
 {
-    public partial class Esportes : Form
+    public partial class Saude : Form
     {
-        public Esportes()
+        public Saude()
         {
             InitializeComponent();
         }
 
-        private void lblAcessoEducacao_Click(object sender, EventArgs e)
+        private void SAUDEE_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void lbl_home_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void lnkSaude_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Home home = new Home();
             this.Hide();
@@ -41,7 +41,7 @@ namespace appEducacao
             familia.Show();
         }
 
-        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void lnkCultura_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Cultura cultura = new Cultura();
             this.Hide();
@@ -62,16 +62,11 @@ namespace appEducacao
             form.Show();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void lnkEsportes_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
-        }
-
-        private void lnkSaude_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Saude saude = new Saude();
+            Esportes esportes = new Esportes();
             this.Hide();
-            saude.Show();
+            esportes.Show();
         }
 
         private void link_questionario_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -86,11 +81,6 @@ namespace appEducacao
             Creditos creditos = new Creditos();
             this.Hide();
             creditos.Show();
-        }
-
-        private void Esportes_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
