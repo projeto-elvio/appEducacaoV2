@@ -56,6 +56,8 @@
             pictureBox10 = new PictureBox();
             linkLabel2 = new LinkLabel();
             linkLabel3 = new LinkLabel();
+            label4 = new Label();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
@@ -72,32 +74,32 @@
             // lblAcessoEducacao
             // 
             lblAcessoEducacao.AutoSize = true;
-            lblAcessoEducacao.Font = new Font("Segoe UI", 35F);
-            lblAcessoEducacao.Location = new Point(410, 11);
+            lblAcessoEducacao.Font = new Font("Showcard Gothic", 24.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblAcessoEducacao.Location = new Point(411, 16);
             lblAcessoEducacao.Name = "lblAcessoEducacao";
-            lblAcessoEducacao.Size = new Size(169, 62);
+            lblAcessoEducacao.Size = new Size(175, 42);
             lblAcessoEducacao.TabIndex = 37;
-            lblAcessoEducacao.Text = "Família";
+            lblAcessoEducacao.Text = "A Família";
             // 
             // lblTextoAE
             // 
-            lblTextoAE.BackColor = Color.Transparent;
+            lblTextoAE.BackColor = Color.FromArgb(192, 192, 255);
             lblTextoAE.Font = new Font("Segoe UI", 11F);
             lblTextoAE.ForeColor = SystemColors.ControlText;
-            lblTextoAE.Location = new Point(243, 80);
+            lblTextoAE.Location = new Point(211, 98);
             lblTextoAE.Name = "lblTextoAE";
-            lblTextoAE.Size = new Size(546, 162);
+            lblTextoAE.Size = new Size(164, 132);
             lblTextoAE.TabIndex = 36;
-            lblTextoAE.Text = resources.GetString("lblTextoAE.Text");
+            lblTextoAE.Text = "Primeiro núcleo de proteção e desenvolvimento da criança, com responsabilidades na educação e cuidado.";
             lblTextoAE.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // pictureBox8
             // 
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(382, 236);
+            pictureBox8.Location = new Point(346, 215);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(420, 236);
-            pictureBox8.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox8.Size = new Size(455, 244);
+            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 35;
             pictureBox8.TabStop = false;
             // 
@@ -105,7 +107,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(209, 65);
+            label1.Location = new Point(246, 73);
             label1.Name = "label1";
             label1.Size = new Size(63, 20);
             label1.TabIndex = 38;
@@ -115,7 +117,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(209, 132);
+            label2.Location = new Point(441, 73);
             label2.Name = "label2";
             label2.Size = new Size(83, 20);
             label2.TabIndex = 39;
@@ -125,7 +127,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(211, 188);
+            label3.Location = new Point(666, 73);
             label3.Name = "label3";
             label3.Size = new Size(60, 20);
             label3.TabIndex = 40;
@@ -365,12 +367,40 @@
             linkLabel3.Text = "Educação";
             linkLabel3.LinkClicked += linkLabel3_LinkClicked;
             // 
+            // label4
+            // 
+            label4.BackColor = Color.FromArgb(192, 192, 255);
+            label4.Font = new Font("Segoe UI", 11F);
+            label4.ForeColor = SystemColors.ControlText;
+            label4.Location = new Point(411, 105);
+            label4.Name = "label4";
+            label4.Size = new Size(164, 132);
+            label4.TabIndex = 140;
+            label4.Text = "Participa na fiscalização e promoção dos direitos, incluindo ONGs, associações e movimentos sociais.\r\n\r\n";
+            label4.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label5
+            // 
+            label5.BackColor = Color.FromArgb(192, 192, 255);
+            label5.Font = new Font("Segoe UI", 11F);
+            label5.ForeColor = SystemColors.ControlText;
+            label5.Location = new Point(614, 105);
+            label5.Name = "label5";
+            label5.Size = new Size(164, 132);
+            label5.TabIndex = 141;
+            label5.Text = "Criador e executor de políticas públicas, assegurando recursos e programas voltados para a proteção e desenvolvimento integral das crianças e adolescentes.";
+            label5.TextAlign = ContentAlignment.MiddleLeft;
+            // 
             // Familia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            Controls.Add(label3);
+            Controls.Add(label5);
+            Controls.Add(label2);
+            Controls.Add(label4);
             Controls.Add(linkLabel3);
             Controls.Add(linkLabel2);
             Controls.Add(pictureBox1);
@@ -390,8 +420,6 @@
             Controls.Add(lnkLiberdade);
             Controls.Add(lnkCultura);
             Controls.Add(pictureBox10);
-            Controls.Add(label3);
-            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(lblAcessoEducacao);
             Controls.Add(lblTextoAE);
@@ -441,5 +469,7 @@
         private PictureBox pictureBox10;
         private LinkLabel linkLabel2;
         private LinkLabel linkLabel3;
+        private Label label4;
+        private Label label5;
     }
 }

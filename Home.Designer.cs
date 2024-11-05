@@ -69,12 +69,12 @@
             // 
             // lblAcessoEducacao
             // 
-            lblAcessoEducacao.Font = new Font("Segoe UI", 35F);
-            lblAcessoEducacao.Location = new Point(221, 10);
+            lblAcessoEducacao.Font = new Font("Showcard Gothic", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblAcessoEducacao.Location = new Point(238, 10);
             lblAcessoEducacao.Name = "lblAcessoEducacao";
             lblAcessoEducacao.Size = new Size(536, 68);
             lblAcessoEducacao.TabIndex = 74;
-            lblAcessoEducacao.Text = "Direitos da Criança";
+            lblAcessoEducacao.Text = "O Direitos das Crianças";
             lblAcessoEducacao.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label1

@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Saude));
-            pictureBox8 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
             textBox1 = new TextBox();
@@ -55,7 +54,10 @@
             lnkLiberdade = new LinkLabel();
             lnkCultura = new LinkLabel();
             pictureBox10 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            pictureBox8 = new PictureBox();
+            textBox2 = new TextBox();
+            textBox3 = new TextBox();
+            textBox4 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
@@ -66,18 +68,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             SuspendLayout();
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.BackColor = Color.White;
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(211, 138);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(218, 174);
-            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox8.TabIndex = 80;
-            pictureBox8.TabStop = false;
             // 
             // label1
             // 
@@ -98,21 +90,22 @@
             // 
             // textBox1
             // 
-            textBox1.BackColor = Color.White;
+            textBox1.BackColor = Color.FromArgb(192, 192, 255);
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(446, 105);
+            textBox1.Location = new Point(211, 94);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(330, 314);
+            textBox1.Size = new Size(271, 45);
             textBox1.TabIndex = 83;
-            textBox1.Text = resources.GetString("textBox1.Text");
+            textBox1.Text = "Toda criança e adolescente tem direito à vida, à saúde e à dignidade (Art. 7).\r\n\r\n";
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(446, 57);
+            label3.Location = new Point(406, 29);
             label3.Name = "label3";
             label3.Size = new Size(111, 45);
             label3.TabIndex = 84;
@@ -371,12 +364,63 @@
             pictureBox10.TabIndex = 102;
             pictureBox10.TabStop = false;
             // 
+            // pictureBox8
+            // 
+            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new Point(417, 198);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(445, 266);
+            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox8.TabIndex = 123;
+            pictureBox8.TabStop = false;
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = Color.FromArgb(192, 192, 255);
+            textBox2.BorderStyle = BorderStyle.None;
+            textBox2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox2.Location = new Point(504, 99);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(284, 88);
+            textBox2.TabIndex = 124;
+            textBox2.Text = "Acesso Universal e Gratuito à Saúde Atendimento integral no SUS (Sistema Único de Saúde) com acesso gratuito a serviços de saúde (Art. 11).\r\n";
+            textBox2.TextChanged += textBox2_TextChanged;
+            // 
+            // textBox3
+            // 
+            textBox3.BackColor = Color.FromArgb(192, 192, 255);
+            textBox3.BorderStyle = BorderStyle.None;
+            textBox3.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox3.Location = new Point(211, 190);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(271, 87);
+            textBox3.TabIndex = 125;
+            textBox3.Text = "Prioridade Absoluta: A gestante tem direito a atendimento pré-natal e pós-natal, com atenção especial ao recém-nascido (Art. 8).";
+            // 
+            // textBox4
+            // 
+            textBox4.BackColor = Color.FromArgb(192, 192, 255);
+            textBox4.BorderStyle = BorderStyle.None;
+            textBox4.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox4.Location = new Point(211, 330);
+            textBox4.Multiline = true;
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(271, 87);
+            textBox4.TabIndex = 126;
+            textBox4.Text = "Vacinação Obrigatória: Responsabilidade da família, da sociedade e do Estado em garantir o direito à saúde (Art. 11).";
+            // 
             // Saude
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
+            BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox4);
+            Controls.Add(textBox3);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
             Controls.Add(linkLabel3);
             Controls.Add(linkLabel2);
             Controls.Add(lbl_Educacao);
@@ -399,15 +443,13 @@
             Controls.Add(lnkCultura);
             Controls.Add(pictureBox10);
             Controls.Add(label3);
-            Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox8);
             Name = "Saude";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Saude";
+            Text = "Saúde";
             Load += SAUDEE_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
@@ -418,12 +460,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private PictureBox pictureBox8;
         private Label label1;
         private Label label2;
         private TextBox textBox1;
@@ -449,5 +491,9 @@
         private LinkLabel lnkLiberdade;
         private LinkLabel lnkCultura;
         private PictureBox pictureBox10;
+        private PictureBox pictureBox8;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private TextBox textBox4;
     }
 }

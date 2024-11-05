@@ -69,7 +69,7 @@
             // 
             // lblAcessoEducacao
             // 
-            lblAcessoEducacao.Font = new Font("Segoe UI", 35F);
+            lblAcessoEducacao.Font = new Font("Showcard Gothic", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblAcessoEducacao.Location = new Point(236, 7);
             lblAcessoEducacao.Name = "lblAcessoEducacao";
             lblAcessoEducacao.Size = new Size(536, 135);
@@ -83,7 +83,7 @@
             lblTextoAE.BackColor = Color.Transparent;
             lblTextoAE.Font = new Font("Segoe UI", 11F);
             lblTextoAE.ForeColor = SystemColors.ControlText;
-            lblTextoAE.Location = new Point(210, 142);
+            lblTextoAE.Location = new Point(207, 136);
             lblTextoAE.Name = "lblTextoAE";
             lblTextoAE.Size = new Size(323, 193);
             lblTextoAE.TabIndex = 55;
@@ -93,16 +93,17 @@
             // pictureBox8
             // 
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(508, 150);
+            pictureBox8.Location = new Point(486, 136);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(322, 319);
-            pictureBox8.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox8.Size = new Size(344, 333);
+            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 57;
             pictureBox8.TabStop = false;
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(192, 192, 255);
             label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(210, 141);
             label1.Name = "label1";
@@ -113,8 +114,9 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.FromArgb(192, 192, 255);
             label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(210, 344);
+            label2.Location = new Point(210, 335);
             label2.Name = "label2";
             label2.Size = new Size(216, 20);
             label2.TabIndex = 59;
@@ -304,9 +306,9 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 11F);
             label3.ForeColor = SystemColors.ControlText;
-            label3.Location = new Point(210, 362);
+            label3.Location = new Point(207, 355);
             label3.Name = "label3";
-            label3.Size = new Size(375, 58);
+            label3.Size = new Size(292, 63);
             label3.TabIndex = 119;
             label3.Text = "Regulação de processos de adoção, assegurando que seja respeitado o melhor interesse da criança e do adolescente.";
             label3.TextAlign = ContentAlignment.MiddleLeft;
@@ -369,6 +371,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
             Controls.Add(linkLabel4);
             Controls.Add(label4);

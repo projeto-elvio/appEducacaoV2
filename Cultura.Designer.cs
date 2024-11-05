@@ -75,12 +75,12 @@
             // lblAcessoEducacao
             // 
             lblAcessoEducacao.AutoSize = true;
-            lblAcessoEducacao.Font = new Font("Segoe UI", 35F);
-            lblAcessoEducacao.Location = new Point(374, 9);
+            lblAcessoEducacao.Font = new Font("Showcard Gothic", 24.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblAcessoEducacao.Location = new Point(404, 15);
             lblAcessoEducacao.Name = "lblAcessoEducacao";
-            lblAcessoEducacao.Size = new Size(222, 62);
+            lblAcessoEducacao.Size = new Size(191, 42);
             lblAcessoEducacao.TabIndex = 37;
-            lblAcessoEducacao.Text = "CULTURA";
+            lblAcessoEducacao.Text = "A CULTURA";
             // 
             // pictureBox8
             // 
@@ -96,7 +96,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(199, 71);
+            label1.Location = new Point(221, 66);
             label1.Name = "label1";
             label1.Size = new Size(567, 84);
             label1.TabIndex = 38;
@@ -133,6 +133,7 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.FromArgb(192, 192, 255);
             label5.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.Location = new Point(230, 368);
             label5.Name = "label5";

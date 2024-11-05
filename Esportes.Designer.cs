@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Esportes));
             label3 = new Label();
-            textBox1 = new TextBox();
-            pictureBox8 = new PictureBox();
             linkLabel4 = new LinkLabel();
             linkLabel3 = new LinkLabel();
             linkLabel2 = new LinkLabel();
@@ -53,7 +51,8 @@
             pictureBox10 = new PictureBox();
             label1 = new Label();
             linkLabel5 = new LinkLabel();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            lblTextoAE = new Label();
+            pictureBox12 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
@@ -64,41 +63,19 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             SuspendLayout();
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(530, 7);
+            label3.Font = new Font("Showcard Gothic", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(420, 22);
             label3.Name = "label3";
-            label3.Size = new Size(143, 45);
+            label3.Size = new Size(206, 42);
             label3.TabIndex = 85;
-            label3.Text = "Esporte ";
+            label3.Text = "O Esporte ";
             label3.Click += label3_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = Color.White;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(458, 55);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(330, 282);
-            textBox1.TabIndex = 86;
-            textBox1.Text = resources.GetString("textBox1.Text");
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.BackColor = Color.White;
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(212, 101);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(218, 174);
-            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox8.TabIndex = 87;
-            pictureBox8.TabStop = false;
             // 
             // linkLabel4
             // 
@@ -353,11 +330,34 @@
             linkLabel5.Text = "Cultura";
             linkLabel5.LinkClicked += linkLabel5_LinkClicked;
             // 
+            // lblTextoAE
+            // 
+            lblTextoAE.BackColor = Color.FromArgb(192, 192, 255);
+            lblTextoAE.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTextoAE.Location = new Point(219, 64);
+            lblTextoAE.Name = "lblTextoAE";
+            lblTextoAE.Size = new Size(569, 182);
+            lblTextoAE.TabIndex = 148;
+            lblTextoAE.Text = resources.GetString("lblTextoAE.Text");
+            lblTextoAE.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new Point(343, 228);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(329, 233);
+            pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox12.TabIndex = 149;
+            pictureBox12.TabStop = false;
+            // 
             // Esportes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblTextoAE);
             Controls.Add(linkLabel5);
             Controls.Add(label1);
             Controls.Add(linkLabel4);
@@ -379,14 +379,12 @@
             Controls.Add(lnkSaude);
             Controls.Add(lnkLiberdade);
             Controls.Add(pictureBox10);
-            Controls.Add(pictureBox8);
-            Controls.Add(textBox1);
             Controls.Add(label3);
+            Controls.Add(pictureBox12);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Esportes";
             StartPosition = FormStartPosition.CenterScreen;
             Load += Esportes_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
@@ -397,14 +395,13 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
         private Label label3;
-        private TextBox textBox1;
-        private PictureBox pictureBox8;
         private LinkLabel linkLabel4;
         private LinkLabel linkLabel3;
         private LinkLabel linkLabel2;
@@ -426,5 +423,7 @@
         private PictureBox pictureBox10;
         private Label label1;
         private LinkLabel linkLabel5;
+        private Label lblTextoAE;
+        private PictureBox pictureBox12;
     }
 }

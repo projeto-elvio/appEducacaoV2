@@ -67,7 +67,7 @@
             // pictureBox8
             // 
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(389, 71);
+            pictureBox8.Location = new Point(387, 31);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(283, 272);
             pictureBox8.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -76,10 +76,11 @@
             // 
             // lblTextoAE
             // 
+            lblTextoAE.BackColor = Color.FromArgb(192, 192, 255);
             lblTextoAE.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblTextoAE.Location = new Point(216, 260);
+            lblTextoAE.Location = new Point(215, 280);
             lblTextoAE.Name = "lblTextoAE";
-            lblTextoAE.Size = new Size(573, 180);
+            lblTextoAE.Size = new Size(573, 161);
             lblTextoAE.TabIndex = 20;
             lblTextoAE.Text = resources.GetString("lblTextoAE.Text");
             lblTextoAE.TextAlign = ContentAlignment.MiddleCenter;
@@ -87,12 +88,12 @@
             // lblAcessoEducacao
             // 
             lblAcessoEducacao.AutoSize = true;
-            lblAcessoEducacao.Font = new Font("Segoe UI", 35F);
-            lblAcessoEducacao.Location = new Point(272, 22);
+            lblAcessoEducacao.Font = new Font("Showcard Gothic", 24.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblAcessoEducacao.Location = new Point(354, 10);
             lblAcessoEducacao.Name = "lblAcessoEducacao";
-            lblAcessoEducacao.Size = new Size(421, 62);
+            lblAcessoEducacao.Size = new Size(335, 42);
             lblAcessoEducacao.TabIndex = 21;
-            lblAcessoEducacao.Text = "Acesso a Educação";
+            lblAcessoEducacao.Text = "Acesso à Educação";
             lblAcessoEducacao.Click += lblAcessoEducacao_Click;
             // 
             // lbl_Educacao
