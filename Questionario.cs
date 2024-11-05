@@ -15,6 +15,9 @@ namespace appEducacao
         // Lista de perguntas
         private List<Pergunta> perguntas;
         private int perguntaAtual = 0;
+        private int acertos = 0;
+        private int erros = 0;
+
 
         public Questionario()
         {
@@ -53,7 +56,7 @@ namespace appEducacao
             radioButton4.Text = pergunta.Opcoes[3];
         }
 
-        private void btnEnviar_Click(object sender, EventArgs e)
+        private async void btnEnviar_Click(object sender, EventArgs e)
         {
             int respostaSelecionada = -1;
 
@@ -62,14 +65,22 @@ namespace appEducacao
             else if (radioButton3.Checked) respostaSelecionada = 2;
             else if (radioButton4.Checked) respostaSelecionada = 3;
 
+            var pergunta = perguntas[perguntaAtual];
+            var respostaCorreta = pergunta.RespostaCorreta;
+            var respostaCorretaTexto = pergunta.Opcoes[respostaCorreta];
+
             if (respostaSelecionada == perguntas[perguntaAtual].RespostaCorreta)
             {
                 MessageBox.Show("Resposta correta!");
+                acertos++;
             }
             else
             {
-                MessageBox.Show("Resposta incorreta!");
+                MessageBox.Show("Resposta incorreta! A resposta correta era: "+ respostaCorretaTexto);
+                erros++;
             }
+
+            await Task.Delay(1000);
 
             perguntaAtual++;
             if (perguntaAtual < perguntas.Count)
@@ -78,10 +89,14 @@ namespace appEducacao
             }
             else
             {
+                MessageBox.Show($"Teste concluido! \nVocê teve {acertos} acertos e {erros} erros");
+
                 DialogResult resultado = MessageBox.Show("Teste concluido, deseja começar novamente? ", "Final do Questionário", MessageBoxButtons.YesNo);
                 if (resultado == DialogResult.Yes)
                 {
                     perguntaAtual = 0;
+                    acertos = 0;
+                    erros = 0;
                     CarregarPergunta();
                 }
                 else { 
