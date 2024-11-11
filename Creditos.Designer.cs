@@ -234,10 +234,10 @@
             // lblCreditos
             // 
             lblCreditos.AutoSize = true;
-            lblCreditos.Font = new Font("Segoe UI", 35F);
-            lblCreditos.Location = new Point(403, 12);
+            lblCreditos.Font = new Font("Showcard Gothic", 24.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblCreditos.Location = new Point(405, 15);
             lblCreditos.Name = "lblCreditos";
-            lblCreditos.Size = new Size(200, 62);
+            lblCreditos.Size = new Size(176, 42);
             lblCreditos.TabIndex = 60;
             lblCreditos.Text = "Créditos";
             // 
@@ -256,6 +256,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(192, 192, 255);
             label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(209, 102);
             label1.Name = "label1";
@@ -266,6 +267,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.FromArgb(192, 192, 255);
             label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(209, 144);
             label2.Name = "label2";
@@ -300,6 +302,7 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.FromArgb(192, 192, 255);
             label5.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.Location = new Point(209, 188);
             label5.Name = "label5";

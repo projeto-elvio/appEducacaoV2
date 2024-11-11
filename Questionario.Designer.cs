@@ -56,6 +56,8 @@
             lbl_home = new Label();
             linkLabel2 = new LinkLabel();
             linkLabel3 = new LinkLabel();
+            lblTextoAE = new Label();
+            pictureBox10 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
@@ -66,6 +68,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             SuspendLayout();
             // 
             // btnEnviar
@@ -74,7 +77,7 @@
             btnEnviar.FlatStyle = FlatStyle.Flat;
             btnEnviar.Font = new Font("Verdana", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnEnviar.ForeColor = SystemColors.InfoText;
-            btnEnviar.Location = new Point(628, 372);
+            btnEnviar.Location = new Point(642, 386);
             btnEnviar.Name = "btnEnviar";
             btnEnviar.Size = new Size(129, 48);
             btnEnviar.TabIndex = 0;
@@ -138,10 +141,10 @@
             // 
             // lblTituloQuestionario
             // 
-            lblTituloQuestionario.Font = new Font("Segoe UI", 35F);
-            lblTituloQuestionario.Location = new Point(235, -5);
+            lblTituloQuestionario.Font = new Font("Showcard Gothic", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTituloQuestionario.Location = new Point(235, 9);
             lblTituloQuestionario.Name = "lblTituloQuestionario";
-            lblTituloQuestionario.Size = new Size(536, 135);
+            lblTituloQuestionario.Size = new Size(536, 72);
             lblTituloQuestionario.TabIndex = 67;
             lblTituloQuestionario.Text = "Questionário";
             lblTituloQuestionario.TextAlign = ContentAlignment.MiddleCenter;
@@ -390,11 +393,35 @@
             linkLabel3.Text = "Família";
             linkLabel3.LinkClicked += linkLabel3_LinkClicked;
             // 
+            // lblTextoAE
+            // 
+            lblTextoAE.BackColor = Color.RoyalBlue;
+            lblTextoAE.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTextoAE.ForeColor = SystemColors.ControlLightLight;
+            lblTextoAE.Location = new Point(381, 70);
+            lblTextoAE.Name = "lblTextoAE";
+            lblTextoAE.Size = new Size(242, 31);
+            lblTextoAE.TabIndex = 103;
+            lblTextoAE.Text = "Vamos relembrar o que aprendemos?!";
+            lblTextoAE.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox10
+            // 
+            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
+            pictureBox10.Location = new Point(658, 213);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(103, 191);
+            pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox10.TabIndex = 104;
+            pictureBox10.TabStop = false;
+            // 
             // Questionario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblTextoAE);
             Controls.Add(linkLabel3);
             Controls.Add(linkLabel2);
             Controls.Add(lbl_home);
@@ -422,6 +449,7 @@
             Controls.Add(radioButton1);
             Controls.Add(lblPergunta);
             Controls.Add(btnEnviar);
+            Controls.Add(pictureBox10);
             Name = "Questionario";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Questionario";
@@ -436,6 +464,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -469,5 +498,7 @@
         private Label lbl_home;
         private LinkLabel linkLabel2;
         private LinkLabel linkLabel3;
+        private Label lblTextoAE;
+        private PictureBox pictureBox10;
     }
 }
