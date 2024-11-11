@@ -58,6 +58,7 @@
             linkLabel3 = new LinkLabel();
             label4 = new Label();
             label5 = new Label();
+            pictureBox13 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
@@ -69,6 +70,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             SuspendLayout();
             // 
             // lblAcessoEducacao
@@ -391,12 +393,26 @@
             label5.Text = "Criador e executor de políticas públicas, assegurando recursos e programas voltados para a proteção e desenvolvimento integral das crianças e adolescentes.";
             label5.TextAlign = ContentAlignment.MiddleLeft;
             // 
+            // pictureBox13
+            // 
+            pictureBox13.Cursor = Cursors.Hand;
+            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new Point(740, 12);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(48, 32);
+            pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox13.TabIndex = 142;
+            pictureBox13.TabStop = false;
+            pictureBox13.Click += pictureBox13_Click;
+            // 
             // Familia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            ControlBox = false;
+            Controls.Add(pictureBox13);
             Controls.Add(label3);
             Controls.Add(label5);
             Controls.Add(label2);
@@ -424,9 +440,9 @@
             Controls.Add(lblAcessoEducacao);
             Controls.Add(lblTextoAE);
             Controls.Add(pictureBox8);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "Familia";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Familia";
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
@@ -438,6 +454,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -471,5 +488,6 @@
         private LinkLabel linkLabel3;
         private Label label4;
         private Label label5;
+        private PictureBox pictureBox13;
     }
 }

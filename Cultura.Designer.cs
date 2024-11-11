@@ -59,6 +59,7 @@
             pictureBox10 = new PictureBox();
             label6 = new Label();
             linkLabel4 = new LinkLabel();
+            pictureBox13 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
@@ -70,6 +71,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             SuspendLayout();
             // 
             // lblAcessoEducacao
@@ -394,12 +396,26 @@
             linkLabel4.Text = "Home";
             linkLabel4.LinkClicked += linkLabel4_LinkClicked;
             // 
+            // pictureBox13
+            // 
+            pictureBox13.Cursor = Cursors.Hand;
+            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new Point(740, 11);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(48, 32);
+            pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox13.TabIndex = 126;
+            pictureBox13.TabStop = false;
+            pictureBox13.Click += pictureBox13_Click;
+            // 
             // Cultura
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            ControlBox = false;
+            Controls.Add(pictureBox13);
             Controls.Add(linkLabel4);
             Controls.Add(label6);
             Controls.Add(linkLabel3);
@@ -428,9 +444,9 @@
             Controls.Add(label1);
             Controls.Add(lblAcessoEducacao);
             Controls.Add(pictureBox8);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "Cultura";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Familia";
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
@@ -442,6 +458,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -476,5 +493,6 @@
         private PictureBox pictureBox10;
         private Label label6;
         private LinkLabel linkLabel4;
+        private PictureBox pictureBox13;
     }
 }

@@ -103,6 +103,11 @@ namespace appEducacao
         {
 
         }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }
 

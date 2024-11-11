@@ -58,6 +58,7 @@
             linkLabel3 = new LinkLabel();
             lblTextoAE = new Label();
             pictureBox10 = new PictureBox();
+            pictureBox13 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
@@ -69,6 +70,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             SuspendLayout();
             // 
             // btnEnviar
@@ -415,12 +417,26 @@
             pictureBox10.TabIndex = 104;
             pictureBox10.TabStop = false;
             // 
+            // pictureBox13
+            // 
+            pictureBox13.Cursor = Cursors.Hand;
+            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new Point(740, 9);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(48, 32);
+            pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox13.TabIndex = 126;
+            pictureBox13.TabStop = false;
+            pictureBox13.Click += pictureBox13_Click;
+            // 
             // Questionario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            ControlBox = false;
+            Controls.Add(pictureBox13);
             Controls.Add(lblTextoAE);
             Controls.Add(linkLabel3);
             Controls.Add(linkLabel2);
@@ -450,9 +466,9 @@
             Controls.Add(lblPergunta);
             Controls.Add(btnEnviar);
             Controls.Add(pictureBox10);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "Questionario";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Questionario";
             Load += Questionario_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
@@ -465,6 +481,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -500,5 +517,6 @@
         private LinkLabel linkLabel3;
         private Label lblTextoAE;
         private PictureBox pictureBox10;
+        private PictureBox pictureBox13;
     }
 }

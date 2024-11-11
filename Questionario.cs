@@ -76,7 +76,7 @@ namespace appEducacao
             }
             else
             {
-                MessageBox.Show("Resposta incorreta! A resposta correta era: "+ respostaCorretaTexto);
+                MessageBox.Show("Resposta incorreta! A resposta correta era: " + respostaCorretaTexto);
                 erros++;
             }
 
@@ -99,7 +99,8 @@ namespace appEducacao
                     erros = 0;
                     CarregarPergunta();
                 }
-                else { 
+                else
+                {
                     Creditos creditos = new Creditos();
                     this.Hide();
                     creditos.Show();
@@ -213,6 +214,11 @@ namespace appEducacao
         private void Questionario_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }

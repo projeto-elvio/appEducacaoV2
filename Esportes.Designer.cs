@@ -53,6 +53,7 @@
             linkLabel5 = new LinkLabel();
             lblTextoAE = new Label();
             pictureBox12 = new PictureBox();
+            pictureBox13 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
@@ -64,6 +65,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             SuspendLayout();
             // 
             // label3
@@ -351,12 +353,26 @@
             pictureBox12.TabIndex = 149;
             pictureBox12.TabStop = false;
             // 
+            // pictureBox13
+            // 
+            pictureBox13.Cursor = Cursors.Hand;
+            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new Point(740, 9);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(48, 32);
+            pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox13.TabIndex = 150;
+            pictureBox13.TabStop = false;
+            pictureBox13.Click += pictureBox13_Click;
+            // 
             // Esportes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            ControlBox = false;
+            Controls.Add(pictureBox13);
             Controls.Add(lblTextoAE);
             Controls.Add(linkLabel5);
             Controls.Add(label1);
@@ -381,6 +397,7 @@
             Controls.Add(pictureBox10);
             Controls.Add(label3);
             Controls.Add(pictureBox12);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Margin = new Padding(3, 2, 3, 2);
             Name = "Esportes";
             StartPosition = FormStartPosition.CenterScreen;
@@ -396,6 +413,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -425,5 +443,6 @@
         private LinkLabel linkLabel5;
         private Label lblTextoAE;
         private PictureBox pictureBox12;
+        private PictureBox pictureBox13;
     }
 }

@@ -58,6 +58,7 @@
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
+            pictureBox13 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
@@ -69,6 +70,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -401,12 +403,26 @@
             label7.TabIndex = 130;
             label7.Text = "Vacinação Obrigatória: Responsabilidade da família, da sociedade e do Estado em garantir o direito à saúde (Art. 11).";
             // 
+            // pictureBox13
+            // 
+            pictureBox13.Cursor = Cursors.Hand;
+            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new Point(740, 12);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(48, 32);
+            pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox13.TabIndex = 131;
+            pictureBox13.TabStop = false;
+            pictureBox13.Click += pictureBox13_Click;
+            // 
             // Saude
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
+            ControlBox = false;
+            Controls.Add(pictureBox13);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -436,9 +452,9 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox8);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "Saude";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Saúde";
             Load += SAUDEE_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
@@ -451,6 +467,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -485,5 +502,6 @@
         private Label label5;
         private Label label6;
         private Label label7;
+        private PictureBox pictureBox13;
     }
 }
