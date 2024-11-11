@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Saude));
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
             label3 = new Label();
             linkLabel3 = new LinkLabel();
             linkLabel2 = new LinkLabel();
@@ -55,9 +54,10 @@
             lnkCultura = new LinkLabel();
             pictureBox10 = new PictureBox();
             pictureBox8 = new PictureBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
@@ -87,19 +87,6 @@
             label2.Name = "label2";
             label2.Size = new Size(0, 15);
             label2.TabIndex = 82;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = Color.FromArgb(192, 192, 255);
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(211, 94);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(271, 45);
-            textBox1.TabIndex = 83;
-            textBox1.Text = "Toda criança e adolescente tem direito à vida, à saúde e à dignidade (Art. 7).\r\n\r\n";
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label3
             // 
@@ -374,42 +361,45 @@
             pictureBox8.TabIndex = 123;
             pictureBox8.TabStop = false;
             // 
-            // textBox2
+            // label4
             // 
-            textBox2.BackColor = Color.FromArgb(192, 192, 255);
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(504, 99);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(284, 88);
-            textBox2.TabIndex = 124;
-            textBox2.Text = "Acesso Universal e Gratuito à Saúde Atendimento integral no SUS (Sistema Único de Saúde) com acesso gratuito a serviços de saúde (Art. 11).\r\n";
-            textBox2.TextChanged += textBox2_TextChanged;
+            label4.BackColor = Color.FromArgb(192, 192, 255);
+            label4.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(211, 99);
+            label4.Name = "label4";
+            label4.Size = new Size(271, 47);
+            label4.TabIndex = 127;
+            label4.Text = "Toda criança e adolescente tem direito à vida, à saúde e à dignidade (Art. 7).";
             // 
-            // textBox3
+            // label5
             // 
-            textBox3.BackColor = Color.FromArgb(192, 192, 255);
-            textBox3.BorderStyle = BorderStyle.None;
-            textBox3.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(211, 190);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(271, 87);
-            textBox3.TabIndex = 125;
-            textBox3.Text = "Prioridade Absoluta: A gestante tem direito a atendimento pré-natal e pós-natal, com atenção especial ao recém-nascido (Art. 8).";
+            label5.BackColor = Color.FromArgb(192, 192, 255);
+            label5.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(501, 99);
+            label5.Name = "label5";
+            label5.Size = new Size(284, 88);
+            label5.TabIndex = 128;
+            label5.Text = "Acesso Universal e Gratuito à Saúde Atendimento integral no SUS (Sistema Único de Saúde) com acesso gratuito a serviços de saúde (Art. 11).";
             // 
-            // textBox4
+            // label6
             // 
-            textBox4.BackColor = Color.FromArgb(192, 192, 255);
-            textBox4.BorderStyle = BorderStyle.None;
-            textBox4.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox4.Location = new Point(211, 330);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(271, 87);
-            textBox4.TabIndex = 126;
-            textBox4.Text = "Vacinação Obrigatória: Responsabilidade da família, da sociedade e do Estado em garantir o direito à saúde (Art. 11).";
+            label6.BackColor = Color.FromArgb(192, 192, 255);
+            label6.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(211, 168);
+            label6.Name = "label6";
+            label6.Size = new Size(271, 87);
+            label6.TabIndex = 129;
+            label6.Text = "Prioridade Absoluta: A gestante tem direito a atendimento pré-natal e pós-natal, com atenção especial ao recém-nascido (Art. 8).";
+            // 
+            // label7
+            // 
+            label7.BackColor = Color.FromArgb(192, 192, 255);
+            label7.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(211, 291);
+            label7.Name = "label7";
+            label7.Size = new Size(271, 87);
+            label7.TabIndex = 130;
+            label7.Text = "Vacinação Obrigatória: Responsabilidade da família, da sociedade e do Estado em garantir o direito à saúde (Art. 11).";
             // 
             // Saude
             // 
@@ -417,10 +407,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
             Controls.Add(linkLabel3);
             Controls.Add(linkLabel2);
             Controls.Add(lbl_Educacao);
@@ -468,7 +458,6 @@
         #endregion
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
         private Label label3;
         private LinkLabel linkLabel3;
         private LinkLabel linkLabel2;
@@ -492,8 +481,9 @@
         private LinkLabel lnkCultura;
         private PictureBox pictureBox10;
         private PictureBox pictureBox8;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private Label label4;
+        private Label label5;
+        private Label label6;
+        private Label label7;
     }
 }
