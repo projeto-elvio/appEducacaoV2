@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "d5K7j2jqSfw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Gustavo Leão\\Desktop\\appEducacaoV2\\appEducacao.csproj",
+=======
+  "dgSpecHash": "qVqJhAQT3U0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pichau\\Documents\\GitHub\\appEducacaoV2\\appEducacao.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

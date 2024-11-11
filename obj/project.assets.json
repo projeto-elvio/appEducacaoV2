@@ -8,11 +8,16 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
+<<<<<<< Updated upstream
     "C:\\Users\\Gustavo Leão\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Pichau\\.nuget\\packages\\": {}
+>>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\Gustavo Leão\\Desktop\\appEducacaoV2\\appEducacao.csproj",
       "projectName": "appEducacao",
       "projectPath": "C:\\Users\\Gustavo Leão\\Desktop\\appEducacaoV2\\appEducacao.csproj",
@@ -21,6 +26,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gustavo Leão\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Pichau\\Documents\\GitHub\\appEducacaoV2\\appEducacao.csproj",
+      "projectName": "appEducacao",
+      "projectPath": "C:\\Users\\Pichau\\Documents\\GitHub\\appEducacaoV2\\appEducacao.csproj",
+      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pichau\\Documents\\GitHub\\appEducacaoV2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +84,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
