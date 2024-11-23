@@ -79,9 +79,10 @@
             btnEnviar.FlatStyle = FlatStyle.Flat;
             btnEnviar.Font = new Font("Verdana", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnEnviar.ForeColor = SystemColors.InfoText;
-            btnEnviar.Location = new Point(642, 386);
+            btnEnviar.Location = new Point(752, 523);
+            btnEnviar.Margin = new Padding(3, 4, 3, 4);
             btnEnviar.Name = "btnEnviar";
-            btnEnviar.Size = new Size(129, 48);
+            btnEnviar.Size = new Size(147, 64);
             btnEnviar.TabIndex = 0;
             btnEnviar.Text = "Enviar";
             btnEnviar.UseVisualStyleBackColor = false;
@@ -90,9 +91,9 @@
             // lblPergunta
             // 
             lblPergunta.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblPergunta.Location = new Point(274, 130);
+            lblPergunta.Location = new Point(313, 173);
             lblPergunta.Name = "lblPergunta";
-            lblPergunta.Size = new Size(497, 103);
+            lblPergunta.Size = new Size(568, 137);
             lblPergunta.TabIndex = 1;
             lblPergunta.Text = "Pergunta";
             lblPergunta.Click += lblPergunta_Click;
@@ -100,9 +101,11 @@
             // radioButton1
             // 
             radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(245, 249);
+            radioButton1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton1.Location = new Point(242, 314);
+            radioButton1.Margin = new Padding(3, 4, 3, 4);
             radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(88, 19);
+            radioButton1.Size = new Size(139, 32);
             radioButton1.TabIndex = 2;
             radioButton1.TabStop = true;
             radioButton1.Text = "rbtnOpcao1";
@@ -111,9 +114,11 @@
             // radioButton2
             // 
             radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(245, 289);
+            radioButton2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton2.Location = new Point(242, 367);
+            radioButton2.Margin = new Padding(3, 4, 3, 4);
             radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(88, 19);
+            radioButton2.Size = new Size(139, 32);
             radioButton2.TabIndex = 3;
             radioButton2.TabStop = true;
             radioButton2.Text = "rbtnOpcao2";
@@ -122,9 +127,11 @@
             // radioButton3
             // 
             radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(245, 329);
+            radioButton3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton3.Location = new Point(242, 421);
+            radioButton3.Margin = new Padding(3, 4, 3, 4);
             radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(88, 19);
+            radioButton3.Size = new Size(139, 32);
             radioButton3.TabIndex = 4;
             radioButton3.TabStop = true;
             radioButton3.Text = "rbtnOpcao3";
@@ -133,9 +140,11 @@
             // radioButton4
             // 
             radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(245, 368);
+            radioButton4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton4.Location = new Point(242, 473);
+            radioButton4.Margin = new Padding(3, 4, 3, 4);
             radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(88, 19);
+            radioButton4.Size = new Size(139, 32);
             radioButton4.TabIndex = 5;
             radioButton4.TabStop = true;
             radioButton4.Text = "rbtnOpcao4";
@@ -144,9 +153,9 @@
             // lblTituloQuestionario
             // 
             lblTituloQuestionario.Font = new Font("Showcard Gothic", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTituloQuestionario.Location = new Point(235, 9);
+            lblTituloQuestionario.Location = new Point(269, 12);
             lblTituloQuestionario.Name = "lblTituloQuestionario";
-            lblTituloQuestionario.Size = new Size(536, 72);
+            lblTituloQuestionario.Size = new Size(613, 96);
             lblTituloQuestionario.TabIndex = 67;
             lblTituloQuestionario.Text = "Questionário";
             lblTituloQuestionario.TextAlign = ContentAlignment.MiddleCenter;
@@ -155,9 +164,9 @@
             // 
             lblNumero.BackColor = Color.Transparent;
             lblNumero.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblNumero.Location = new Point(212, 130);
+            lblNumero.Location = new Point(242, 173);
             lblNumero.Name = "lblNumero";
-            lblNumero.Size = new Size(56, 27);
+            lblNumero.Size = new Size(64, 36);
             lblNumero.TabIndex = 68;
             lblNumero.Text = "00 -";
             // 
@@ -165,9 +174,10 @@
             // 
             pictureBox8.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(39, 12);
+            pictureBox8.Location = new Point(45, 16);
+            pictureBox8.Margin = new Padding(3, 4, 3, 4);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(34, 46);
+            pictureBox8.Size = new Size(39, 61);
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 97;
             pictureBox8.TabStop = false;
@@ -179,9 +189,9 @@
             linkLabel1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             linkLabel1.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel1.LinkColor = Color.Black;
-            linkLabel1.Location = new Point(75, 403);
+            linkLabel1.Location = new Point(86, 537);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(51, 15);
+            linkLabel1.Size = new Size(64, 20);
             linkLabel1.TabIndex = 96;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Créditos";
@@ -191,9 +201,10 @@
             // 
             pictureBox11.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(39, 386);
+            pictureBox11.Location = new Point(45, 515);
+            pictureBox11.Margin = new Padding(3, 4, 3, 4);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(34, 46);
+            pictureBox11.Size = new Size(39, 61);
             pictureBox11.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox11.TabIndex = 95;
             pictureBox11.TabStop = false;
@@ -205,9 +216,9 @@
             link_questionario.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             link_questionario.LinkBehavior = LinkBehavior.NeverUnderline;
             link_questionario.LinkColor = Color.Black;
-            link_questionario.Location = new Point(75, 29);
+            link_questionario.Location = new Point(86, 39);
             link_questionario.Name = "link_questionario";
-            link_questionario.Size = new Size(40, 15);
+            link_questionario.Size = new Size(50, 20);
             link_questionario.TabIndex = 94;
             link_questionario.TabStop = true;
             link_questionario.Text = "Home";
@@ -217,9 +228,10 @@
             // 
             pictureBox9.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(39, 339);
+            pictureBox9.Location = new Point(45, 452);
+            pictureBox9.Margin = new Padding(3, 4, 3, 4);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(34, 46);
+            pictureBox9.Size = new Size(39, 61);
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox9.TabIndex = 92;
             pictureBox9.TabStop = false;
@@ -228,9 +240,10 @@
             // 
             pictureBox7.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(39, 291);
+            pictureBox7.Location = new Point(45, 388);
+            pictureBox7.Margin = new Padding(3, 4, 3, 4);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(34, 46);
+            pictureBox7.Size = new Size(39, 61);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 91;
             pictureBox7.TabStop = false;
@@ -239,9 +252,10 @@
             // 
             pictureBox6.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(39, 245);
+            pictureBox6.Location = new Point(45, 327);
+            pictureBox6.Margin = new Padding(3, 4, 3, 4);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(34, 46);
+            pictureBox6.Size = new Size(39, 61);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 90;
             pictureBox6.TabStop = false;
@@ -250,9 +264,10 @@
             // 
             pictureBox5.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(39, 199);
+            pictureBox5.Location = new Point(45, 265);
+            pictureBox5.Margin = new Padding(3, 4, 3, 4);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(34, 46);
+            pictureBox5.Size = new Size(39, 61);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 89;
             pictureBox5.TabStop = false;
@@ -261,9 +276,10 @@
             // 
             pictureBox4.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(39, 152);
+            pictureBox4.Location = new Point(45, 203);
+            pictureBox4.Margin = new Padding(3, 4, 3, 4);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(34, 46);
+            pictureBox4.Size = new Size(39, 61);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 88;
             pictureBox4.TabStop = false;
@@ -272,9 +288,10 @@
             // 
             pictureBox3.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(39, 105);
+            pictureBox3.Location = new Point(45, 140);
+            pictureBox3.Margin = new Padding(3, 4, 3, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(34, 46);
+            pictureBox3.Size = new Size(39, 61);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 87;
             pictureBox3.TabStop = false;
@@ -283,9 +300,10 @@
             // 
             pictureBox2.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(39, 58);
+            pictureBox2.Location = new Point(45, 77);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(34, 46);
+            pictureBox2.Size = new Size(39, 61);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 86;
             pictureBox2.TabStop = false;
@@ -296,9 +314,9 @@
             lnkSaude.BackColor = Color.FromArgb(192, 192, 255);
             lnkSaude.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkSaude.LinkColor = Color.Black;
-            lnkSaude.Location = new Point(75, 309);
+            lnkSaude.Location = new Point(86, 412);
             lnkSaude.Name = "lnkSaude";
-            lnkSaude.Size = new Size(39, 15);
+            lnkSaude.Size = new Size(50, 20);
             lnkSaude.TabIndex = 85;
             lnkSaude.TabStop = true;
             lnkSaude.Text = "Saúde";
@@ -310,9 +328,9 @@
             lnkEsportes.BackColor = Color.FromArgb(192, 192, 255);
             lnkEsportes.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkEsportes.LinkColor = Color.Black;
-            lnkEsportes.Location = new Point(75, 262);
+            lnkEsportes.Location = new Point(86, 349);
             lnkEsportes.Name = "lnkEsportes";
-            lnkEsportes.Size = new Size(51, 15);
+            lnkEsportes.Size = new Size(65, 20);
             lnkEsportes.TabIndex = 84;
             lnkEsportes.TabStop = true;
             lnkEsportes.Text = "Esportes";
@@ -324,9 +342,9 @@
             lnkLiberdade.BackColor = Color.FromArgb(192, 192, 255);
             lnkLiberdade.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkLiberdade.LinkColor = Color.Black;
-            lnkLiberdade.Location = new Point(75, 172);
+            lnkLiberdade.Location = new Point(86, 229);
             lnkLiberdade.Name = "lnkLiberdade";
-            lnkLiberdade.Size = new Size(54, 15);
+            lnkLiberdade.Size = new Size(68, 20);
             lnkLiberdade.TabIndex = 83;
             lnkLiberdade.TabStop = true;
             lnkLiberdade.Text = "Proteção";
@@ -338,9 +356,9 @@
             lnkCultura.BackColor = Color.FromArgb(192, 192, 255);
             lnkCultura.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkCultura.LinkColor = Color.Black;
-            lnkCultura.Location = new Point(75, 124);
+            lnkCultura.Location = new Point(86, 165);
             lnkCultura.Name = "lnkCultura";
-            lnkCultura.Size = new Size(46, 15);
+            lnkCultura.Size = new Size(56, 20);
             lnkCultura.TabIndex = 82;
             lnkCultura.TabStop = true;
             lnkCultura.Text = "Cultura";
@@ -350,8 +368,9 @@
             // 
             pictureBox1.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(193, 453);
+            pictureBox1.Size = new Size(221, 604);
             pictureBox1.TabIndex = 81;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -361,9 +380,9 @@
             lbl_home.AutoSize = true;
             lbl_home.BackColor = Color.FromArgb(192, 192, 255);
             lbl_home.Font = new Font("Segoe UI Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_home.Location = new Point(75, 353);
+            lbl_home.Location = new Point(86, 471);
             lbl_home.Name = "lbl_home";
-            lbl_home.Size = new Size(89, 17);
+            lbl_home.Size = new Size(119, 23);
             lbl_home.TabIndex = 100;
             lbl_home.Text = "Questionario";
             // 
@@ -373,9 +392,9 @@
             linkLabel2.BackColor = Color.FromArgb(192, 192, 255);
             linkLabel2.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel2.LinkColor = Color.Black;
-            linkLabel2.Location = new Point(75, 218);
+            linkLabel2.Location = new Point(86, 291);
             linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(58, 15);
+            linkLabel2.Size = new Size(73, 20);
             linkLabel2.TabIndex = 101;
             linkLabel2.TabStop = true;
             linkLabel2.Text = "Educação";
@@ -387,9 +406,9 @@
             linkLabel3.BackColor = Color.FromArgb(192, 192, 255);
             linkLabel3.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel3.LinkColor = Color.Black;
-            linkLabel3.Location = new Point(75, 79);
+            linkLabel3.Location = new Point(86, 105);
             linkLabel3.Name = "linkLabel3";
-            linkLabel3.Size = new Size(45, 15);
+            linkLabel3.Size = new Size(56, 20);
             linkLabel3.TabIndex = 102;
             linkLabel3.TabStop = true;
             linkLabel3.Text = "Família";
@@ -400,9 +419,9 @@
             lblTextoAE.BackColor = Color.RoyalBlue;
             lblTextoAE.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTextoAE.ForeColor = SystemColors.ControlLightLight;
-            lblTextoAE.Location = new Point(381, 70);
+            lblTextoAE.Location = new Point(435, 93);
             lblTextoAE.Name = "lblTextoAE";
-            lblTextoAE.Size = new Size(242, 31);
+            lblTextoAE.Size = new Size(277, 41);
             lblTextoAE.TabIndex = 103;
             lblTextoAE.Text = "Vamos relembrar o que aprendemos?!";
             lblTextoAE.TextAlign = ContentAlignment.MiddleLeft;
@@ -410,9 +429,10 @@
             // pictureBox10
             // 
             pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(658, 213);
+            pictureBox10.Location = new Point(781, 302);
+            pictureBox10.Margin = new Padding(3, 4, 3, 4);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(103, 191);
+            pictureBox10.Size = new Size(118, 255);
             pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox10.TabIndex = 104;
             pictureBox10.TabStop = false;
@@ -421,9 +441,10 @@
             // 
             pictureBox13.Cursor = Cursors.Hand;
             pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
-            pictureBox13.Location = new Point(740, 9);
+            pictureBox13.Location = new Point(846, 12);
+            pictureBox13.Margin = new Padding(3, 4, 3, 4);
             pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(48, 32);
+            pictureBox13.Size = new Size(55, 43);
             pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox13.TabIndex = 126;
             pictureBox13.TabStop = false;
@@ -431,10 +452,10 @@
             // 
             // Questionario
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             ControlBox = false;
             Controls.Add(pictureBox13);
             Controls.Add(lblTextoAE);
@@ -467,6 +488,7 @@
             Controls.Add(btnEnviar);
             Controls.Add(pictureBox10);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Questionario";
             StartPosition = FormStartPosition.CenterScreen;
             Load += Questionario_Load;

@@ -77,26 +77,26 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = SystemColors.ButtonFace;
-            label1.Location = new Point(504, 59);
+            label1.Location = new Point(576, 79);
             label1.Name = "label1";
-            label1.Size = new Size(0, 15);
+            label1.Size = new Size(0, 20);
             label1.TabIndex = 81;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(211, 220);
+            label2.Location = new Point(241, 293);
             label2.Name = "label2";
-            label2.Size = new Size(0, 15);
+            label2.Size = new Size(0, 20);
             label2.TabIndex = 82;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(406, 29);
+            label3.Font = new Font("Showcard Gothic", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(464, 39);
             label3.Name = "label3";
-            label3.Size = new Size(111, 45);
+            label3.Size = new Size(151, 50);
             label3.TabIndex = 84;
             label3.Text = "Saúde";
             // 
@@ -106,9 +106,9 @@
             linkLabel3.BackColor = Color.FromArgb(192, 192, 255);
             linkLabel3.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel3.LinkColor = Color.Black;
-            linkLabel3.Location = new Point(75, 217);
+            linkLabel3.Location = new Point(86, 289);
             linkLabel3.Name = "linkLabel3";
-            linkLabel3.Size = new Size(58, 15);
+            linkLabel3.Size = new Size(73, 20);
             linkLabel3.TabIndex = 122;
             linkLabel3.TabStop = true;
             linkLabel3.Text = "Educação";
@@ -120,9 +120,9 @@
             linkLabel2.BackColor = Color.FromArgb(192, 192, 255);
             linkLabel2.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel2.LinkColor = Color.Black;
-            linkLabel2.Location = new Point(75, 79);
+            linkLabel2.Location = new Point(86, 105);
             linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(45, 15);
+            linkLabel2.Size = new Size(56, 20);
             linkLabel2.TabIndex = 121;
             linkLabel2.TabStop = true;
             linkLabel2.Text = "Família";
@@ -133,9 +133,9 @@
             lbl_Educacao.AutoSize = true;
             lbl_Educacao.BackColor = Color.FromArgb(192, 192, 255);
             lbl_Educacao.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Educacao.Location = new Point(74, 217);
+            lbl_Educacao.Location = new Point(85, 289);
             lbl_Educacao.Name = "lbl_Educacao";
-            lbl_Educacao.Size = new Size(0, 15);
+            lbl_Educacao.Size = new Size(0, 20);
             lbl_Educacao.TabIndex = 120;
             // 
             // lbl_home
@@ -143,9 +143,9 @@
             lbl_home.AutoSize = true;
             lbl_home.BackColor = Color.FromArgb(192, 192, 255);
             lbl_home.Font = new Font("Segoe UI Black", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_home.Location = new Point(78, 307);
+            lbl_home.Location = new Point(89, 409);
             lbl_home.Name = "lbl_home";
-            lbl_home.Size = new Size(51, 19);
+            lbl_home.Size = new Size(62, 23);
             lbl_home.TabIndex = 119;
             lbl_home.Text = "Saúde";
             lbl_home.Click += lbl_home_Click;
@@ -154,9 +154,10 @@
             // 
             pictureBox1.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(39, 12);
+            pictureBox1.Location = new Point(45, 16);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(34, 46);
+            pictureBox1.Size = new Size(39, 61);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 118;
             pictureBox1.TabStop = false;
@@ -168,9 +169,9 @@
             linkLabel1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             linkLabel1.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel1.LinkColor = Color.Black;
-            linkLabel1.Location = new Point(74, 402);
+            linkLabel1.Location = new Point(85, 536);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(51, 15);
+            linkLabel1.Size = new Size(64, 20);
             linkLabel1.TabIndex = 117;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Créditos";
@@ -180,9 +181,10 @@
             // 
             pictureBox11.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(39, 386);
+            pictureBox11.Location = new Point(45, 515);
+            pictureBox11.Margin = new Padding(3, 4, 3, 4);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(34, 46);
+            pictureBox11.Size = new Size(39, 61);
             pictureBox11.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox11.TabIndex = 116;
             pictureBox11.TabStop = false;
@@ -193,9 +195,9 @@
             link_questionario.BackColor = Color.FromArgb(192, 192, 255);
             link_questionario.LinkBehavior = LinkBehavior.NeverUnderline;
             link_questionario.LinkColor = Color.Black;
-            link_questionario.Location = new Point(74, 356);
+            link_questionario.Location = new Point(85, 475);
             link_questionario.Name = "link_questionario";
-            link_questionario.Size = new Size(75, 15);
+            link_questionario.Size = new Size(94, 20);
             link_questionario.TabIndex = 115;
             link_questionario.TabStop = true;
             link_questionario.Text = "Questionário";
@@ -206,18 +208,19 @@
             lbl_familia.AutoSize = true;
             lbl_familia.BackColor = Color.FromArgb(192, 192, 255);
             lbl_familia.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_familia.Location = new Point(74, 79);
+            lbl_familia.Location = new Point(85, 105);
             lbl_familia.Name = "lbl_familia";
-            lbl_familia.Size = new Size(0, 15);
+            lbl_familia.Size = new Size(0, 20);
             lbl_familia.TabIndex = 114;
             // 
             // pictureBox9
             // 
             pictureBox9.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(39, 339);
+            pictureBox9.Location = new Point(45, 452);
+            pictureBox9.Margin = new Padding(3, 4, 3, 4);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(34, 46);
+            pictureBox9.Size = new Size(39, 61);
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox9.TabIndex = 113;
             pictureBox9.TabStop = false;
@@ -226,9 +229,10 @@
             // 
             pictureBox7.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(39, 291);
+            pictureBox7.Location = new Point(45, 388);
+            pictureBox7.Margin = new Padding(3, 4, 3, 4);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(34, 46);
+            pictureBox7.Size = new Size(39, 61);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 112;
             pictureBox7.TabStop = false;
@@ -237,9 +241,10 @@
             // 
             pictureBox6.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(39, 245);
+            pictureBox6.Location = new Point(45, 327);
+            pictureBox6.Margin = new Padding(3, 4, 3, 4);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(34, 46);
+            pictureBox6.Size = new Size(39, 61);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 111;
             pictureBox6.TabStop = false;
@@ -248,9 +253,10 @@
             // 
             pictureBox5.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(39, 198);
+            pictureBox5.Location = new Point(45, 264);
+            pictureBox5.Margin = new Padding(3, 4, 3, 4);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(34, 46);
+            pictureBox5.Size = new Size(39, 61);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 110;
             pictureBox5.TabStop = false;
@@ -259,9 +265,10 @@
             // 
             pictureBox4.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(39, 152);
+            pictureBox4.Location = new Point(45, 203);
+            pictureBox4.Margin = new Padding(3, 4, 3, 4);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(34, 46);
+            pictureBox4.Size = new Size(39, 61);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 109;
             pictureBox4.TabStop = false;
@@ -270,9 +277,10 @@
             // 
             pictureBox3.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(39, 105);
+            pictureBox3.Location = new Point(45, 140);
+            pictureBox3.Margin = new Padding(3, 4, 3, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(34, 46);
+            pictureBox3.Size = new Size(39, 61);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 108;
             pictureBox3.TabStop = false;
@@ -281,9 +289,10 @@
             // 
             pictureBox2.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(39, 58);
+            pictureBox2.Location = new Point(45, 77);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(34, 46);
+            pictureBox2.Size = new Size(39, 61);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 107;
             pictureBox2.TabStop = false;
@@ -294,9 +303,9 @@
             lnkSaude.BackColor = Color.FromArgb(192, 192, 255);
             lnkSaude.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkSaude.LinkColor = Color.Black;
-            lnkSaude.Location = new Point(78, 30);
+            lnkSaude.Location = new Point(89, 40);
             lnkSaude.Name = "lnkSaude";
-            lnkSaude.Size = new Size(40, 15);
+            lnkSaude.Size = new Size(50, 20);
             lnkSaude.TabIndex = 106;
             lnkSaude.TabStop = true;
             lnkSaude.Text = "Home";
@@ -308,9 +317,9 @@
             lnkEsportes.BackColor = Color.FromArgb(192, 192, 255);
             lnkEsportes.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkEsportes.LinkColor = Color.Black;
-            lnkEsportes.Location = new Point(74, 262);
+            lnkEsportes.Location = new Point(85, 349);
             lnkEsportes.Name = "lnkEsportes";
-            lnkEsportes.Size = new Size(51, 15);
+            lnkEsportes.Size = new Size(65, 20);
             lnkEsportes.TabIndex = 105;
             lnkEsportes.TabStop = true;
             lnkEsportes.Text = "Esportes";
@@ -322,9 +331,9 @@
             lnkLiberdade.BackColor = Color.FromArgb(192, 192, 255);
             lnkLiberdade.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkLiberdade.LinkColor = Color.Black;
-            lnkLiberdade.Location = new Point(74, 172);
+            lnkLiberdade.Location = new Point(85, 229);
             lnkLiberdade.Name = "lnkLiberdade";
-            lnkLiberdade.Size = new Size(54, 15);
+            lnkLiberdade.Size = new Size(68, 20);
             lnkLiberdade.TabIndex = 104;
             lnkLiberdade.TabStop = true;
             lnkLiberdade.Text = "Proteção";
@@ -336,9 +345,9 @@
             lnkCultura.BackColor = Color.FromArgb(192, 192, 255);
             lnkCultura.LinkBehavior = LinkBehavior.NeverUnderline;
             lnkCultura.LinkColor = Color.Black;
-            lnkCultura.Location = new Point(74, 124);
+            lnkCultura.Location = new Point(85, 165);
             lnkCultura.Name = "lnkCultura";
-            lnkCultura.Size = new Size(46, 15);
+            lnkCultura.Size = new Size(56, 20);
             lnkCultura.TabIndex = 103;
             lnkCultura.TabStop = true;
             lnkCultura.Text = "Cultura";
@@ -348,17 +357,19 @@
             // 
             pictureBox10.BackColor = Color.FromArgb(192, 192, 255);
             pictureBox10.Location = new Point(-1, 0);
+            pictureBox10.Margin = new Padding(3, 4, 3, 4);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(193, 453);
+            pictureBox10.Size = new Size(221, 604);
             pictureBox10.TabIndex = 102;
             pictureBox10.TabStop = false;
             // 
             // pictureBox8
             // 
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(417, 198);
+            pictureBox8.Location = new Point(477, 264);
+            pictureBox8.Margin = new Padding(3, 4, 3, 4);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(445, 266);
+            pictureBox8.Size = new Size(509, 355);
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 123;
             pictureBox8.TabStop = false;
@@ -367,9 +378,9 @@
             // 
             label4.BackColor = Color.FromArgb(192, 192, 255);
             label4.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(211, 99);
+            label4.Location = new Point(241, 132);
             label4.Name = "label4";
-            label4.Size = new Size(271, 47);
+            label4.Size = new Size(310, 63);
             label4.TabIndex = 127;
             label4.Text = "Toda criança e adolescente tem direito à vida, à saúde e à dignidade (Art. 7).";
             // 
@@ -377,9 +388,9 @@
             // 
             label5.BackColor = Color.FromArgb(192, 192, 255);
             label5.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(501, 99);
+            label5.Location = new Point(573, 132);
             label5.Name = "label5";
-            label5.Size = new Size(284, 88);
+            label5.Size = new Size(325, 117);
             label5.TabIndex = 128;
             label5.Text = "Acesso Universal e Gratuito à Saúde Atendimento integral no SUS (Sistema Único de Saúde) com acesso gratuito a serviços de saúde (Art. 11).";
             // 
@@ -387,9 +398,9 @@
             // 
             label6.BackColor = Color.FromArgb(192, 192, 255);
             label6.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(211, 168);
+            label6.Location = new Point(241, 224);
             label6.Name = "label6";
-            label6.Size = new Size(271, 87);
+            label6.Size = new Size(310, 116);
             label6.TabIndex = 129;
             label6.Text = "Prioridade Absoluta: A gestante tem direito a atendimento pré-natal e pós-natal, com atenção especial ao recém-nascido (Art. 8).";
             // 
@@ -397,9 +408,9 @@
             // 
             label7.BackColor = Color.FromArgb(192, 192, 255);
             label7.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(211, 291);
+            label7.Location = new Point(241, 388);
             label7.Name = "label7";
-            label7.Size = new Size(271, 87);
+            label7.Size = new Size(310, 116);
             label7.TabIndex = 130;
             label7.Text = "Vacinação Obrigatória: Responsabilidade da família, da sociedade e do Estado em garantir o direito à saúde (Art. 11).";
             // 
@@ -407,9 +418,10 @@
             // 
             pictureBox13.Cursor = Cursors.Hand;
             pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
-            pictureBox13.Location = new Point(740, 12);
+            pictureBox13.Location = new Point(846, 16);
+            pictureBox13.Margin = new Padding(3, 4, 3, 4);
             pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(48, 32);
+            pictureBox13.Size = new Size(55, 43);
             pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox13.TabIndex = 131;
             pictureBox13.TabStop = false;
@@ -417,10 +429,10 @@
             // 
             // Saude
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             ControlBox = false;
             Controls.Add(pictureBox13);
             Controls.Add(label7);
@@ -453,6 +465,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox8);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Saude";
             StartPosition = FormStartPosition.CenterScreen;
             Load += SAUDEE_Load;

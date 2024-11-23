@@ -95,7 +95,6 @@ C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Credi
 C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Form1.resources
 C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Familia.resources
 C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Home.resources
-C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Liberdade.resources
 C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Properties.Resources.resources
 C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Questionario.resources
 C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.csproj.GenerateResource.cache
@@ -187,3 +186,7 @@ C:\Users\24111685\source\repos\appEducacaoV2\obj\Debug\net8.0-windows\refint\app
 C:\Users\24111685\source\repos\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.pdb
 C:\Users\24111685\source\repos\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.genruntimeconfig.cache
 C:\Users\24111685\source\repos\appEducacaoV2\obj\Debug\net8.0-windows\ref\appEducacao.dll
+C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Cultura.resources
+C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Esportes.resources
+C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Protecao.resources
+C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Saude.resources
