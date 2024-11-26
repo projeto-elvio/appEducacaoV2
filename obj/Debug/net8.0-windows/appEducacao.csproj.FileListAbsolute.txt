@@ -190,3 +190,29 @@ C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Cultu
 C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Esportes.resources
 C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Protecao.resources
 C:\Users\Win 10\Desktop\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Saude.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\bin\Debug\net8.0-windows\appEducacao.exe
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\bin\Debug\net8.0-windows\appEducacao.deps.json
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\bin\Debug\net8.0-windows\appEducacao.runtimeconfig.json
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\bin\Debug\net8.0-windows\appEducacao.dll
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\bin\Debug\net8.0-windows\appEducacao.pdb
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Creditos.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Cultura.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Form1.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Esportes.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Familia.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Home.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Properties.Resources.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Protecao.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Questionario.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.Saude.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.csproj.GenerateResource.cache
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.AssemblyInfoInputs.cache
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.AssemblyInfo.cs
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.sourcelink.json
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.dll
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\refint\appEducacao.dll
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.pdb
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\appEducacao.genruntimeconfig.cache
+C:\Users\Pichau\OneDrive\Área de Trabalho\aaaa finall\appEducacaoV2\obj\Debug\net8.0-windows\ref\appEducacao.dll
